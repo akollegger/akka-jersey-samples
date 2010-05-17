@@ -1,0 +1,9 @@
+*.class
+.metadata/
+.classpath
+.project
+.settings/
+target/
+lib_managed/
+src_managed/
+project/boot/

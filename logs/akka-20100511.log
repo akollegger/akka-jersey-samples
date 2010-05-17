@@ -1,0 +1,1230 @@
+INF [20100424-22:59:41.288] config: AKKA_HOME is defined to [/Users/akollegger/Developer/bodl/bodl], config loaded from [/Users/akollegger/Developer/bodl/bodl/config/akka.conf].
+INF [20100424-22:59:41.386] kernel: 
+INF [20100424-22:59:41.386] kernel: ==============================
+INF [20100424-22:59:41.386] kernel:           __    __
+INF [20100424-22:59:41.386] kernel:  _____  |  | _|  | _______
+INF [20100424-22:59:41.386] kernel:  \__  \ |  |/ /  |/ /\__  \
+INF [20100424-22:59:41.386] kernel:   / __ \|    <|    <  / __ \_
+INF [20100424-22:59:41.386] kernel:  (____  /__|_ \__|_ \(____  /
+INF [20100424-22:59:41.386] kernel:       \/     \/    \/     \/
+INF [20100424-22:59:41.387] kernel:  Running version 0.8.1
+INF [20100424-22:59:41.388] kernel: ==============================
+INF [20100424-22:59:41.388] kernel: Starting Akka...
+ERR [20100424-22:59:41.389] kernel: Could not find a deploy directory at [/Users/akollegger/Developer/bodl/bodl/deploy]
+INF [20100424-23:01:43.512] config: AKKA_HOME is defined to [/Users/akollegger/Developer/bodl/bodl], config loaded from [/Users/akollegger/Developer/bodl/bodl/config/akka.conf].
+INF [20100424-23:01:43.605] kernel: 
+INF [20100424-23:01:43.605] kernel: ==============================
+INF [20100424-23:01:43.605] kernel:           __    __
+INF [20100424-23:01:43.605] kernel:  _____  |  | _|  | _______
+INF [20100424-23:01:43.605] kernel:  \__  \ |  |/ /  |/ /\__  \
+INF [20100424-23:01:43.605] kernel:   / __ \|    <|    <  / __ \_
+INF [20100424-23:01:43.605] kernel:  (____  /__|_ \__|_ \(____  /
+INF [20100424-23:01:43.605] kernel:       \/     \/    \/     \/
+INF [20100424-23:01:43.605] kernel:  Running version 0.8.1
+INF [20100424-23:01:43.606] kernel: ==============================
+INF [20100424-23:01:43.606] kernel: Starting Akka...
+INF [20100424-23:01:43.609] kernel: Deploying applications from [/Users/akollegger/Developer/bodl/bodl/deploy]: [List()]
+INF [20100424-23:01:43.612] kernel: Loading boot class [samples.Boot]
+INF [20100424-23:20:21.717] config: AKKA_HOME is defined to [/Users/akollegger/Developer/bodl/bodl], config loaded from [/Users/akollegger/Developer/bodl/bodl/config/akka.conf].
+INF [20100424-23:20:21.803] kernel: 
+INF [20100424-23:20:21.803] kernel: ==============================
+INF [20100424-23:20:21.803] kernel:           __    __
+INF [20100424-23:20:21.803] kernel:  _____  |  | _|  | _______
+INF [20100424-23:20:21.803] kernel:  \__  \ |  |/ /  |/ /\__  \
+INF [20100424-23:20:21.803] kernel:   / __ \|    <|    <  / __ \_
+INF [20100424-23:20:21.803] kernel:  (____  /__|_ \__|_ \(____  /
+INF [20100424-23:20:21.803] kernel:       \/     \/    \/     \/
+INF [20100424-23:20:21.804] kernel:  Running version 0.8.1
+INF [20100424-23:20:21.805] kernel: ==============================
+INF [20100424-23:20:21.805] kernel: Starting Akka...
+INF [20100424-23:20:21.808] kernel: Deploying applications from [/Users/akollegger/Developer/bodl/bodl/deploy]: [List()]
+INF [20100424-23:20:21.811] kernel: Loading boot class [samples.Boot]
+INF [20100424-23:20:21.853] api: Initializing GlobalStmInstance using factoryMethod 'org.multiverse.stms.alpha.AlphaStm.createFast'.
+INF [20100424-23:20:21.865] alpha: Created a new AlphaStm instance
+INF [20100424-23:20:21.866] api: Successfully initialized GlobalStmInstance using factoryMethod 'org.multiverse.stms.alpha.AlphaStm.createFast'.
+INF [20100424-23:20:22.010] remote: Starting up Cluster Service...
+INF [20100424-23:20:24.640] kernel: Initializing Remote Actors Service...
+INF [20100424-23:20:24.647] kernel: Remote Actors Service initialized!
+INF [20100424-23:20:24.743] remote: Starting remote server at [localhost:9999]
+INF [20100424-23:20:24.847] kernel: Attempting to start REST service on uri [http://localhost:9998]
+INF [20100424-23:20:24.986] kernel: REST service root path [[., /Users/akollegger/Developer/bodl/bodl/deploy/root]] and context path []
+INF [20100424-23:20:25.197] grizzly: Starting Grizzly Framework 1.9.18-i - Sat Apr 24 23:20:25 EDT 2010
+INF [20100424-23:20:25.217] kernel: REST service started successfully. Listening to port [9998]
+INF [20100424-23:20:25.330] camel: Camel context initialized
+INF [20100424-23:20:26.544] camel: Camel context started
+INF [20100424-23:20:26.561] kernel: Akka started successfully
+INF [20100424-23:20:42.459] Atmosphere: Atmosphere is using for CometSupport: org.atmosphere.container.GrizzlyCometSupport running under container Grizzly/1.9.18-i
+INF [20100424-23:20:42.496] core: Scanning for root resource and provider classes in the Web app resource paths:
+INF [20100424-23:20:42.496] core:   /WEB-INF/lib
+INF [20100424-23:20:42.496] core:   /WEB-INF/classes
+INF [20100424-23:20:42.622] application: Initiating Jersey application, version 'Jersey: 1.1.5 01/20/2010 03:55 PM'
+INF [20100424-23:20:42.631] application: Adding the following classes declared in META-INF/services/jersey-server-components to the resource configuration:
+INF [20100424-23:20:42.631] application:   class org.atmosphere.jersey.BroadcasterInjector
+INF [20100424-23:20:42.631] application:   class org.atmosphere.jersey.AtmosphereProviders$BroadcasterProvider
+INF [20100424-23:20:42.631] application:   class org.atmosphere.jersey.BroadcasterLookupInjector
+INF [20100424-23:20:42.631] application:   class org.atmosphere.jersey.AtmosphereResourceInjector
+INF [20100424-23:20:42.631] application:   class org.atmosphere.jersey.AtmosphereResourceConfigurator
+INF [20100424-23:20:44.100] Atmosphere: Atmosphere Framework 0.5.4 started.
+INF [20100425-11:35:19.868] config: AKKA_HOME is defined to [/Users/akollegger/Developer/bodl/bodl], config loaded from [/Users/akollegger/Developer/bodl/bodl/config/akka.conf].
+INF [20100425-11:35:19.946] kernel: 
+INF [20100425-11:35:19.946] kernel: ==============================
+INF [20100425-11:35:19.946] kernel:           __    __
+INF [20100425-11:35:19.946] kernel:  _____  |  | _|  | _______
+INF [20100425-11:35:19.946] kernel:  \__  \ |  |/ /  |/ /\__  \
+INF [20100425-11:35:19.946] kernel:   / __ \|    <|    <  / __ \_
+INF [20100425-11:35:19.946] kernel:  (____  /__|_ \__|_ \(____  /
+INF [20100425-11:35:19.946] kernel:       \/     \/    \/     \/
+INF [20100425-11:35:19.947] kernel:  Running version 0.8.1
+INF [20100425-11:35:19.948] kernel: ==============================
+INF [20100425-11:35:19.948] kernel: Starting Akka...
+INF [20100425-11:35:19.950] kernel: Deploying applications from [/Users/akollegger/Developer/bodl/bodl/deploy]: [List()]
+INF [20100425-11:35:19.954] kernel: Loading boot class [samples.Boot]
+INF [20100425-11:35:20.029] api: Initializing GlobalStmInstance using factoryMethod 'org.multiverse.stms.alpha.AlphaStm.createFast'.
+INF [20100425-11:35:20.042] alpha: Created a new AlphaStm instance
+INF [20100425-11:35:20.043] api: Successfully initialized GlobalStmInstance using factoryMethod 'org.multiverse.stms.alpha.AlphaStm.createFast'.
+INF [20100425-11:35:20.162] remote: Starting up Cluster Service...
+INF [20100425-11:35:22.935] kernel: Initializing Remote Actors Service...
+INF [20100425-11:35:22.945] kernel: Remote Actors Service initialized!
+INF [20100425-11:35:23.038] kernel: Attempting to start REST service on uri [http://localhost:9998]
+INF [20100425-11:35:23.045] remote: Starting remote server at [localhost:9999]
+INF [20100425-11:35:23.133] kernel: REST service root path [[., /Users/akollegger/Developer/bodl/bodl/deploy/root]] and context path []
+INF [20100425-11:35:23.339] grizzly: Starting Grizzly Framework 1.9.18-i - Sun Apr 25 11:35:23 EDT 2010
+INF [20100425-11:35:23.356] kernel: REST service started successfully. Listening to port [9998]
+INF [20100425-11:35:23.521] camel: Camel context initialized
+INF [20100425-11:35:24.660] camel: Camel context started
+INF [20100425-11:35:24.675] kernel: Akka started successfully
+INF [20100425-12:04:46.233] config: AKKA_HOME is defined to [/Users/akollegger/Developer/bodl/bodl], config loaded from [/Users/akollegger/Developer/bodl/bodl/config/akka.conf].
+INF [20100425-12:04:46.312] kernel: 
+INF [20100425-12:04:46.312] kernel: ==============================
+INF [20100425-12:04:46.312] kernel:           __    __
+INF [20100425-12:04:46.312] kernel:  _____  |  | _|  | _______
+INF [20100425-12:04:46.312] kernel:  \__  \ |  |/ /  |/ /\__  \
+INF [20100425-12:04:46.312] kernel:   / __ \|    <|    <  / __ \_
+INF [20100425-12:04:46.312] kernel:  (____  /__|_ \__|_ \(____  /
+INF [20100425-12:04:46.312] kernel:       \/     \/    \/     \/
+INF [20100425-12:04:46.313] kernel:  Running version 0.8.1
+INF [20100425-12:04:46.314] kernel: ==============================
+INF [20100425-12:04:46.314] kernel: Starting Akka...
+INF [20100425-12:04:46.316] kernel: Deploying applications from [/Users/akollegger/Developer/bodl/bodl/deploy]: [List()]
+INF [20100425-12:04:46.319] kernel: Loading boot class [samples.Boot]
+INF [20100425-12:04:46.367] api: Initializing GlobalStmInstance using factoryMethod 'org.multiverse.stms.alpha.AlphaStm.createFast'.
+INF [20100425-12:04:46.382] alpha: Created a new AlphaStm instance
+INF [20100425-12:04:46.383] api: Successfully initialized GlobalStmInstance using factoryMethod 'org.multiverse.stms.alpha.AlphaStm.createFast'.
+INF [20100425-12:04:46.492] remote: Starting up Cluster Service...
+INF [20100425-12:04:49.272] kernel: Initializing Remote Actors Service...
+INF [20100425-12:04:49.282] kernel: Remote Actors Service initialized!
+INF [20100425-12:04:49.379] kernel: Attempting to start REST service on uri [http://localhost:9998]
+INF [20100425-12:04:49.467] remote: Starting remote server at [localhost:9999]
+INF [20100425-12:04:49.511] kernel: REST service root path [[., /Users/akollegger/Developer/bodl/bodl/deploy/root]] and context path []
+INF [20100425-12:04:49.769] grizzly: Starting Grizzly Framework 1.9.18-i - Sun Apr 25 12:04:49 EDT 2010
+INF [20100425-12:04:49.791] kernel: REST service started successfully. Listening to port [9998]
+INF [20100425-12:04:49.882] camel: Camel context initialized
+INF [20100425-12:04:51.193] camel: Camel context started
+INF [20100425-12:04:51.206] kernel: Akka started successfully
+INF [20100425-12:22:42.994] config: AKKA_HOME is defined to [/Users/akollegger/Developer/bodl/bodl], config loaded from [/Users/akollegger/Developer/bodl/bodl/config/akka.conf].
+INF [20100425-12:22:43.088] kernel: 
+INF [20100425-12:22:43.088] kernel: ==============================
+INF [20100425-12:22:43.088] kernel:           __    __
+INF [20100425-12:22:43.088] kernel:  _____  |  | _|  | _______
+INF [20100425-12:22:43.088] kernel:  \__  \ |  |/ /  |/ /\__  \
+INF [20100425-12:22:43.088] kernel:   / __ \|    <|    <  / __ \_
+INF [20100425-12:22:43.088] kernel:  (____  /__|_ \__|_ \(____  /
+INF [20100425-12:22:43.088] kernel:       \/     \/    \/     \/
+INF [20100425-12:22:43.089] kernel:  Running version 0.8.1
+INF [20100425-12:22:43.089] kernel: ==============================
+INF [20100425-12:22:43.090] kernel: Starting Akka...
+INF [20100425-12:22:43.104] kernel: Deploying applications from [/Users/akollegger/Developer/bodl/bodl/deploy]: [List(file:/Users/akollegger/Developer/bodl/bodl/deploy/akka-sample-chat_2.8.0.Beta1-1.0-docs.jar, file:/Users/akollegger/Developer/bodl/bodl/deploy/akka-sample-chat_2.8.0.Beta1-1.0-src.jar, file:/Users/akollegger/Developer/bodl/bodl/deploy/akka-sample-chat_2.8.0.Beta1-1.0.jar)]
+INF [20100425-12:22:43.107] kernel: Loading boot class [samples.Boot]
+INF [20100425-12:22:43.160] api: Initializing GlobalStmInstance using factoryMethod 'org.multiverse.stms.alpha.AlphaStm.createFast'.
+INF [20100425-12:22:43.176] alpha: Created a new AlphaStm instance
+INF [20100425-12:22:43.176] api: Successfully initialized GlobalStmInstance using factoryMethod 'org.multiverse.stms.alpha.AlphaStm.createFast'.
+INF [20100425-12:22:43.286] remote: Starting up Cluster Service...
+INF [20100425-12:22:46.463] kernel: Initializing Remote Actors Service...
+INF [20100425-12:22:46.473] kernel: Remote Actors Service initialized!
+INF [20100425-12:22:46.560] remote: Starting remote server at [localhost:9999]
+INF [20100425-12:22:46.579] kernel: Attempting to start REST service on uri [http://localhost:9998]
+INF [20100425-12:22:46.767] kernel: REST service root path [[., /Users/akollegger/Developer/bodl/bodl/deploy/root]] and context path []
+INF [20100425-12:22:47.004] grizzly: Starting Grizzly Framework 1.9.18-i - Sun Apr 25 12:22:47 EDT 2010
+INF [20100425-12:22:47.025] kernel: REST service started successfully. Listening to port [9998]
+INF [20100425-12:22:47.139] camel: Camel context initialized
+INF [20100425-12:22:48.540] camel: Camel context started
+INF [20100425-12:22:48.552] kernel: Akka started successfully
+INF [20100425-12:40:22.585] config: AKKA_HOME is defined to [/Users/akollegger/Developer/bodl/bodl], config loaded from [/Users/akollegger/Developer/bodl/bodl/config/akka.conf].
+INF [20100425-12:40:22.688] kernel: 
+INF [20100425-12:40:22.688] kernel: ==============================
+INF [20100425-12:40:22.688] kernel:           __    __
+INF [20100425-12:40:22.688] kernel:  _____  |  | _|  | _______
+INF [20100425-12:40:22.688] kernel:  \__  \ |  |/ /  |/ /\__  \
+INF [20100425-12:40:22.688] kernel:   / __ \|    <|    <  / __ \_
+INF [20100425-12:40:22.688] kernel:  (____  /__|_ \__|_ \(____  /
+INF [20100425-12:40:22.688] kernel:       \/     \/    \/     \/
+INF [20100425-12:40:22.689] kernel:  Running version 0.8.1
+INF [20100425-12:40:22.689] kernel: ==============================
+INF [20100425-12:40:22.690] kernel: Starting Akka...
+INF [20100425-12:40:22.693] kernel: Deploying applications from [/Users/akollegger/Developer/bodl/bodl/deploy]: [List()]
+INF [20100425-12:40:22.698] kernel: Loading boot class [samples.Boot]
+INF [20100425-12:42:11.097] config: Config loaded from the application classpath.
+INF [20100425-12:42:11.194] kernel: 
+INF [20100425-12:42:11.194] kernel: ==============================
+INF [20100425-12:42:11.194] kernel:           __    __
+INF [20100425-12:42:11.194] kernel:  _____  |  | _|  | _______
+INF [20100425-12:42:11.194] kernel:  \__  \ |  |/ /  |/ /\__  \
+INF [20100425-12:42:11.194] kernel:   / __ \|    <|    <  / __ \_
+INF [20100425-12:42:11.194] kernel:  (____  /__|_ \__|_ \(____  /
+INF [20100425-12:42:11.194] kernel:       \/     \/    \/     \/
+INF [20100425-12:42:11.195] kernel:  Running version 0.8.1
+INF [20100425-12:42:11.195] kernel: ==============================
+INF [20100425-12:42:11.196] kernel: Starting Akka...
+INF [20100425-12:42:11.200] kernel: Loading boot class [com.bodl.app.Boot]
+INF [20100425-12:42:11.302] api: Initializing GlobalStmInstance using factoryMethod 'org.multiverse.stms.alpha.AlphaStm.createFast'.
+INF [20100425-12:42:11.317] alpha: Created a new AlphaStm instance
+INF [20100425-12:42:11.318] api: Successfully initialized GlobalStmInstance using factoryMethod 'org.multiverse.stms.alpha.AlphaStm.createFast'.
+INF [20100425-12:42:11.497] remote: Starting up Cluster Service...
+INF [20100425-12:42:14.286] kernel: Initializing Remote Actors Service...
+INF [20100425-12:42:14.294] kernel: Remote Actors Service initialized!
+INF [20100425-12:42:14.384] kernel: Attempting to start REST service on uri [http://localhost:9998]
+INF [20100425-12:42:14.487] remote: Starting remote server at [localhost:9999]
+INF [20100425-12:42:14.519] kernel: REST service root path [[.]] and context path []
+INF [20100425-12:42:14.736] grizzly: Starting Grizzly Framework 1.9.18-i - Sun Apr 25 12:42:14 EDT 2010
+INF [20100425-12:42:14.753] kernel: REST service started successfully. Listening to port [9998]
+INF [20100425-12:42:14.976] camel: Camel context initialized
+INF [20100425-12:42:16.241] camel: Camel context started
+INF [20100425-12:42:16.261] kernel: Akka started successfully
+INF [20100425-12:42:35.840] Atmosphere: Atmosphere is using for CometSupport: org.atmosphere.container.GrizzlyCometSupport running under container Grizzly/1.9.18-i
+INF [20100425-12:42:35.857] core: Scanning for root resource and provider classes in the Web app resource paths:
+INF [20100425-12:42:35.857] core:   /WEB-INF/lib
+INF [20100425-12:42:35.857] core:   /WEB-INF/classes
+INF [20100425-12:42:35.987] application: Initiating Jersey application, version 'Jersey: 1.1.5 01/20/2010 03:55 PM'
+INF [20100425-12:42:35.997] application: Adding the following classes declared in META-INF/services/jersey-server-components to the resource configuration:
+INF [20100425-12:42:35.997] application:   class org.atmosphere.jersey.BroadcasterInjector
+INF [20100425-12:42:35.997] application:   class org.atmosphere.jersey.AtmosphereProviders$BroadcasterProvider
+INF [20100425-12:42:35.997] application:   class org.atmosphere.jersey.BroadcasterLookupInjector
+INF [20100425-12:42:35.997] application:   class org.atmosphere.jersey.AtmosphereResourceInjector
+INF [20100425-12:42:35.997] application:   class org.atmosphere.jersey.AtmosphereResourceConfigurator
+INF [20100425-12:42:37.885] Atmosphere: Atmosphere Framework 0.5.4 started.
+INF [20100425-12:46:07.856] config: Config loaded from the application classpath.
+INF [20100425-12:46:08.042] kernel: 
+INF [20100425-12:46:08.042] kernel: ==============================
+INF [20100425-12:46:08.042] kernel:           __    __
+INF [20100425-12:46:08.042] kernel:  _____  |  | _|  | _______
+INF [20100425-12:46:08.042] kernel:  \__  \ |  |/ /  |/ /\__  \
+INF [20100425-12:46:08.042] kernel:   / __ \|    <|    <  / __ \_
+INF [20100425-12:46:08.042] kernel:  (____  /__|_ \__|_ \(____  /
+INF [20100425-12:46:08.042] kernel:       \/     \/    \/     \/
+INF [20100425-12:46:08.043] kernel:  Running version 0.8.1
+INF [20100425-12:46:08.044] kernel: ==============================
+INF [20100425-12:46:08.044] kernel: Starting Akka...
+INF [20100425-12:46:08.049] kernel: Loading boot class [com.bodl.app.Boot]
+INF [20100425-12:46:08.102] api: Initializing GlobalStmInstance using factoryMethod 'org.multiverse.stms.alpha.AlphaStm.createFast'.
+INF [20100425-12:46:08.119] alpha: Created a new AlphaStm instance
+INF [20100425-12:46:08.119] api: Successfully initialized GlobalStmInstance using factoryMethod 'org.multiverse.stms.alpha.AlphaStm.createFast'.
+INF [20100425-12:46:08.251] remote: Starting up Cluster Service...
+INF [20100425-12:46:11.042] kernel: Initializing Remote Actors Service...
+INF [20100425-12:46:11.087] kernel: Remote Actors Service initialized!
+INF [20100425-12:46:11.246] kernel: Attempting to start REST service on uri [http://localhost:9998]
+INF [20100425-12:46:11.270] remote: Starting remote server at [localhost:9999]
+INF [20100425-12:46:11.429] kernel: REST service root path [[.]] and context path []
+INF [20100425-12:46:11.935] grizzly: Starting Grizzly Framework 1.9.18-i - Sun Apr 25 12:46:11 EDT 2010
+INF [20100425-12:46:11.966] kernel: REST service started successfully. Listening to port [9998]
+INF [20100425-12:46:12.132] camel: Camel context initialized
+INF [20100425-12:46:13.686] camel: Camel context started
+INF [20100425-12:46:13.703] kernel: Akka started successfully
+INF [20100425-12:46:24.378] Atmosphere: Atmosphere is using for CometSupport: org.atmosphere.container.GrizzlyCometSupport running under container Grizzly/1.9.18-i
+INF [20100425-12:46:24.465] core: Scanning for root resource and provider classes in the Web app resource paths:
+INF [20100425-12:46:24.465] core:   /WEB-INF/lib
+INF [20100425-12:46:24.465] core:   /WEB-INF/classes
+INF [20100425-12:46:24.707] application: Initiating Jersey application, version 'Jersey: 1.1.5 01/20/2010 03:55 PM'
+INF [20100425-12:46:24.722] application: Adding the following classes declared in META-INF/services/jersey-server-components to the resource configuration:
+INF [20100425-12:46:24.722] application:   class org.atmosphere.jersey.BroadcasterInjector
+INF [20100425-12:46:24.722] application:   class org.atmosphere.jersey.AtmosphereProviders$BroadcasterProvider
+INF [20100425-12:46:24.722] application:   class org.atmosphere.jersey.BroadcasterLookupInjector
+INF [20100425-12:46:24.722] application:   class org.atmosphere.jersey.AtmosphereResourceInjector
+INF [20100425-12:46:24.722] application:   class org.atmosphere.jersey.AtmosphereResourceConfigurator
+INF [20100425-12:46:26.670] Atmosphere: Atmosphere Framework 0.5.4 started.
+INF [20100425-12:56:22.827] config: Config loaded from the application classpath.
+INF [20100425-12:56:22.961] kernel: 
+INF [20100425-12:56:22.961] kernel: ==============================
+INF [20100425-12:56:22.961] kernel:           __    __
+INF [20100425-12:56:22.961] kernel:  _____  |  | _|  | _______
+INF [20100425-12:56:22.961] kernel:  \__  \ |  |/ /  |/ /\__  \
+INF [20100425-12:56:22.961] kernel:   / __ \|    <|    <  / __ \_
+INF [20100425-12:56:22.961] kernel:  (____  /__|_ \__|_ \(____  /
+INF [20100425-12:56:22.961] kernel:       \/     \/    \/     \/
+INF [20100425-12:56:22.962] kernel:  Running version 0.8.1
+INF [20100425-12:56:22.962] kernel: ==============================
+INF [20100425-12:56:22.963] kernel: Starting Akka...
+INF [20100425-12:56:22.966] kernel: Loading boot class [com.bodl.app.Boot]
+INF [20100425-12:56:23.017] api: Initializing GlobalStmInstance using factoryMethod 'org.multiverse.stms.alpha.AlphaStm.createFast'.
+INF [20100425-12:56:23.033] alpha: Created a new AlphaStm instance
+INF [20100425-12:56:23.034] api: Successfully initialized GlobalStmInstance using factoryMethod 'org.multiverse.stms.alpha.AlphaStm.createFast'.
+INF [20100425-12:56:23.169] remote: Starting up Cluster Service...
+INF [20100425-12:56:25.964] kernel: Initializing Remote Actors Service...
+INF [20100425-12:56:25.968] kernel: Remote Actors Service initialized!
+INF [20100425-12:56:26.074] kernel: Attempting to start REST service on uri [http://localhost:9998]
+INF [20100425-12:56:26.090] remote: Starting remote server at [localhost:9999]
+INF [20100425-12:56:26.260] kernel: REST service root path [[.]] and context path []
+INF [20100425-12:56:26.567] grizzly: Starting Grizzly Framework 1.9.18-i - Sun Apr 25 12:56:26 EDT 2010
+INF [20100425-12:56:26.606] kernel: REST service started successfully. Listening to port [9998]
+INF [20100425-12:56:26.795] camel: Camel context initialized
+INF [20100425-12:56:28.320] camel: Camel context started
+INF [20100425-12:56:28.339] kernel: Akka started successfully
+INF [20100425-12:57:15.446] Atmosphere: Atmosphere is using for CometSupport: org.atmosphere.container.GrizzlyCometSupport running under container Grizzly/1.9.18-i
+INF [20100425-12:57:15.505] core: Scanning for root resource and provider classes in the Web app resource paths:
+INF [20100425-12:57:15.505] core:   /WEB-INF/lib
+INF [20100425-12:57:15.505] core:   /WEB-INF/classes
+INF [20100425-12:57:15.714] application: Initiating Jersey application, version 'Jersey: 1.1.5 01/20/2010 03:55 PM'
+INF [20100425-12:57:15.726] application: Adding the following classes declared in META-INF/services/jersey-server-components to the resource configuration:
+INF [20100425-12:57:15.726] application:   class org.atmosphere.jersey.BroadcasterInjector
+INF [20100425-12:57:15.726] application:   class org.atmosphere.jersey.AtmosphereProviders$BroadcasterProvider
+INF [20100425-12:57:15.726] application:   class org.atmosphere.jersey.BroadcasterLookupInjector
+INF [20100425-12:57:15.726] application:   class org.atmosphere.jersey.AtmosphereResourceInjector
+INF [20100425-12:57:15.726] application:   class org.atmosphere.jersey.AtmosphereResourceConfigurator
+INF [20100425-12:57:17.675] Atmosphere: Atmosphere Framework 0.5.4 started.
+INF [20100506-15:20:11.822] config: AKKA_HOME is defined to [/opt/verylocal/akka], config loaded from [/opt/verylocal/akka/config/akka.conf].
+INF [20100506-15:20:12.856] kernel: 
+INF [20100506-15:20:12.856] kernel: ==============================
+INF [20100506-15:20:12.856] kernel:           __    __
+INF [20100506-15:20:12.856] kernel:  _____  |  | _|  | _______
+INF [20100506-15:20:12.856] kernel:  \__  \ |  |/ /  |/ /\__  \
+INF [20100506-15:20:12.856] kernel:   / __ \|    <|    <  / __ \_
+INF [20100506-15:20:12.856] kernel:  (____  /__|_ \__|_ \(____  /
+INF [20100506-15:20:12.856] kernel:       \/     \/    \/     \/
+INF [20100506-15:20:12.856] kernel:  Running version 0.8.1
+INF [20100506-15:20:12.857] kernel: ==============================
+INF [20100506-15:20:12.857] kernel: Starting Akka...
+INF [20100506-15:20:12.860] kernel: Deploying applications from [/opt/verylocal/akka/deploy]: [List()]
+INF [20100506-15:20:12.865] kernel: Loading boot class [sample.camel.Boot]
+INF [20100506-15:31:17.332] config: Config loaded from the application classpath.
+INF [20100506-15:31:17.468] kernel: 
+INF [20100506-15:31:17.468] kernel: ==============================
+INF [20100506-15:31:17.468] kernel:           __    __
+INF [20100506-15:31:17.468] kernel:  _____  |  | _|  | _______
+INF [20100506-15:31:17.468] kernel:  \__  \ |  |/ /  |/ /\__  \
+INF [20100506-15:31:17.468] kernel:   / __ \|    <|    <  / __ \_
+INF [20100506-15:31:17.468] kernel:  (____  /__|_ \__|_ \(____  /
+INF [20100506-15:31:17.468] kernel:       \/     \/    \/     \/
+INF [20100506-15:31:17.469] kernel:  Running version 0.8.1
+INF [20100506-15:31:17.470] kernel: ==============================
+INF [20100506-15:31:17.470] kernel: Starting Akka...
+INF [20100506-15:31:17.474] kernel: Loading boot class [com.bodl.app.Boot]
+INF [20100506-15:31:17.589] api: Initializing GlobalStmInstance using factoryMethod 'org.multiverse.stms.alpha.AlphaStm.createFast'.
+INF [20100506-15:31:17.631] alpha: Created a new AlphaStm instance
+INF [20100506-15:31:17.631] api: Successfully initialized GlobalStmInstance using factoryMethod 'org.multiverse.stms.alpha.AlphaStm.createFast'.
+INF [20100506-15:31:17.845] remote: Starting up Cluster Service...
+INF [20100506-15:31:21.535] kernel: Initializing Remote Actors Service...
+INF [20100506-15:31:21.545] kernel: Remote Actors Service initialized!
+INF [20100506-15:31:21.859] remote: Starting remote server at [localhost:9999]
+INF [20100506-15:31:21.905] kernel: Attempting to start REST service on uri [http://localhost:9998]
+INF [20100506-15:31:22.248] kernel: REST service root path [[.]] and context path []
+INF [20100506-15:31:22.750] grizzly: Starting Grizzly Framework 1.9.18-i - Thu May 06 15:31:22 EDT 2010
+INF [20100506-15:31:22.810] kernel: REST service started successfully. Listening to port [9998]
+INF [20100506-15:31:23.038] camel: Camel context initialized
+INF [20100506-15:31:25.224] camel: Camel context started
+INF [20100506-15:31:25.260] kernel: Akka started successfully
+INF [20100506-15:33:46.312] Atmosphere: Atmosphere is using for CometSupport: org.atmosphere.container.GrizzlyCometSupport running under container Grizzly/1.9.18-i
+INF [20100506-15:33:46.381] core: Scanning for root resource and provider classes in the Web app resource paths:
+INF [20100506-15:33:46.381] core:   /WEB-INF/lib
+INF [20100506-15:33:46.381] core:   /WEB-INF/classes
+INF [20100506-15:33:46.696] application: Initiating Jersey application, version 'Jersey: 1.1.5 01/20/2010 03:55 PM'
+INF [20100506-15:33:46.719] application: Adding the following classes declared in META-INF/services/jersey-server-components to the resource configuration:
+INF [20100506-15:33:46.719] application:   class org.atmosphere.jersey.BroadcasterInjector
+INF [20100506-15:33:46.719] application:   class org.atmosphere.jersey.AtmosphereProviders$BroadcasterProvider
+INF [20100506-15:33:46.719] application:   class org.atmosphere.jersey.BroadcasterLookupInjector
+INF [20100506-15:33:46.719] application:   class org.atmosphere.jersey.AtmosphereResourceInjector
+INF [20100506-15:33:46.719] application:   class org.atmosphere.jersey.AtmosphereResourceConfigurator
+INF [20100506-15:33:49.364] Atmosphere: Atmosphere Framework 0.5.4 started.
+INF [20100506-18:08:47.865] config: Config loaded from the application classpath.
+INF [20100506-18:08:48.691] kernel: 
+INF [20100506-18:08:48.691] kernel: ==============================
+INF [20100506-18:08:48.691] kernel:           __    __
+INF [20100506-18:08:48.691] kernel:  _____  |  | _|  | _______
+INF [20100506-18:08:48.691] kernel:  \__  \ |  |/ /  |/ /\__  \
+INF [20100506-18:08:48.691] kernel:   / __ \|    <|    <  / __ \_
+INF [20100506-18:08:48.691] kernel:  (____  /__|_ \__|_ \(____  /
+INF [20100506-18:08:48.691] kernel:       \/     \/    \/     \/
+INF [20100506-18:08:48.692] kernel:  Running version 0.8.1
+INF [20100506-18:08:48.693] kernel: ==============================
+INF [20100506-18:08:48.693] kernel: Starting Akka...
+INF [20100506-18:08:48.697] kernel: Loading boot class [com.bodl.app.Boot]
+INF [20100506-18:08:48.766] api: Initializing GlobalStmInstance using factoryMethod 'org.multiverse.stms.alpha.AlphaStm.createFast'.
+INF [20100506-18:08:48.783] alpha: Created a new AlphaStm instance
+INF [20100506-18:08:48.784] api: Successfully initialized GlobalStmInstance using factoryMethod 'org.multiverse.stms.alpha.AlphaStm.createFast'.
+INF [20100506-18:08:48.946] remote: Starting up Cluster Service...
+INF [20100506-18:08:52.176] kernel: Initializing Remote Actors Service...
+INF [20100506-18:08:52.184] kernel: Remote Actors Service initialized!
+INF [20100506-18:08:52.378] remote: Starting remote server at [localhost:9999]
+INF [20100506-18:08:52.403] kernel: Attempting to start REST service on uri [http://localhost:9998]
+INF [20100506-18:08:52.584] kernel: REST service root path [[.]] and context path []
+INF [20100506-18:08:52.901] grizzly: Starting Grizzly Framework 1.9.18-i - Thu May 06 18:08:52 EDT 2010
+INF [20100506-18:08:52.931] kernel: REST service started successfully. Listening to port [9998]
+INF [20100506-18:08:53.139] camel: Camel context initialized
+INF [20100506-18:08:54.709] camel: Camel context started
+INF [20100506-18:08:54.734] kernel: Akka started successfully
+INF [20100506-18:10:19.822] Atmosphere: Atmosphere is using for CometSupport: org.atmosphere.container.GrizzlyCometSupport running under container Grizzly/1.9.18-i
+INF [20100506-18:10:19.871] core: Scanning for root resource and provider classes in the Web app resource paths:
+INF [20100506-18:10:19.871] core:   /WEB-INF/lib
+INF [20100506-18:10:19.871] core:   /WEB-INF/classes
+INF [20100506-18:10:20.095] application: Initiating Jersey application, version 'Jersey: 1.1.5 01/20/2010 03:55 PM'
+INF [20100506-18:10:20.118] application: Adding the following classes declared in META-INF/services/jersey-server-components to the resource configuration:
+INF [20100506-18:10:20.118] application:   class org.atmosphere.jersey.BroadcasterInjector
+INF [20100506-18:10:20.118] application:   class org.atmosphere.jersey.AtmosphereProviders$BroadcasterProvider
+INF [20100506-18:10:20.118] application:   class org.atmosphere.jersey.BroadcasterLookupInjector
+INF [20100506-18:10:20.118] application:   class org.atmosphere.jersey.AtmosphereResourceInjector
+INF [20100506-18:10:20.118] application:   class org.atmosphere.jersey.AtmosphereResourceConfigurator
+INF [20100506-18:10:22.443] Atmosphere: Atmosphere Framework 0.5.4 started.
+INF [20100506-18:25:46.632] config: Config loaded from the application classpath.
+INF [20100506-18:25:46.740] kernel: 
+INF [20100506-18:25:46.740] kernel: ==============================
+INF [20100506-18:25:46.740] kernel:           __    __
+INF [20100506-18:25:46.740] kernel:  _____  |  | _|  | _______
+INF [20100506-18:25:46.740] kernel:  \__  \ |  |/ /  |/ /\__  \
+INF [20100506-18:25:46.740] kernel:   / __ \|    <|    <  / __ \_
+INF [20100506-18:25:46.740] kernel:  (____  /__|_ \__|_ \(____  /
+INF [20100506-18:25:46.740] kernel:       \/     \/    \/     \/
+INF [20100506-18:25:46.741] kernel:  Running version 0.8.1
+INF [20100506-18:25:46.742] kernel: ==============================
+INF [20100506-18:25:46.742] kernel: Starting Akka...
+INF [20100506-18:25:46.752] kernel: Loading boot class [com.bodl.app.Boot]
+INF [20100506-18:25:46.811] api: Initializing GlobalStmInstance using factoryMethod 'org.multiverse.stms.alpha.AlphaStm.createFast'.
+INF [20100506-18:25:46.839] alpha: Created a new AlphaStm instance
+INF [20100506-18:25:46.839] api: Successfully initialized GlobalStmInstance using factoryMethod 'org.multiverse.stms.alpha.AlphaStm.createFast'.
+INF [20100506-18:25:46.977] remote: Starting up Cluster Service...
+INF [20100506-18:25:49.652] kernel: Initializing Remote Actors Service...
+INF [20100506-18:25:49.678] kernel: Remote Actors Service initialized!
+INF [20100506-18:25:49.788] kernel: Attempting to start REST service on uri [http://localhost:9998]
+INF [20100506-18:25:49.821] remote: Starting remote server at [localhost:9999]
+INF [20100506-18:25:49.932] kernel: REST service root path [[.]] and context path []
+INF [20100506-18:25:50.272] grizzly: Starting Grizzly Framework 1.9.18-i - Thu May 06 18:25:50 EDT 2010
+INF [20100506-18:25:50.310] kernel: REST service started successfully. Listening to port [9998]
+INF [20100506-18:25:50.490] camel: Camel context initialized
+INF [20100506-18:25:52.006] camel: Camel context started
+INF [20100506-18:25:52.036] kernel: Akka started successfully
+INF [20100506-18:26:21.821] Atmosphere: Atmosphere is using for CometSupport: org.atmosphere.container.GrizzlyCometSupport running under container Grizzly/1.9.18-i
+INF [20100506-18:26:21.863] core: Scanning for root resource and provider classes in the Web app resource paths:
+INF [20100506-18:26:21.863] core:   /WEB-INF/lib
+INF [20100506-18:26:21.863] core:   /WEB-INF/classes
+INF [20100506-18:26:22.032] application: Initiating Jersey application, version 'Jersey: 1.1.5 01/20/2010 03:55 PM'
+INF [20100506-18:26:22.045] application: Adding the following classes declared in META-INF/services/jersey-server-components to the resource configuration:
+INF [20100506-18:26:22.045] application:   class org.atmosphere.jersey.BroadcasterInjector
+INF [20100506-18:26:22.045] application:   class org.atmosphere.jersey.AtmosphereProviders$BroadcasterProvider
+INF [20100506-18:26:22.045] application:   class org.atmosphere.jersey.BroadcasterLookupInjector
+INF [20100506-18:26:22.045] application:   class org.atmosphere.jersey.AtmosphereResourceInjector
+INF [20100506-18:26:22.045] application:   class org.atmosphere.jersey.AtmosphereResourceConfigurator
+INF [20100506-18:26:24.025] Atmosphere: Atmosphere Framework 0.5.4 started.
+INF [20100506-18:30:08.517] config: Config loaded from the application classpath.
+INF [20100506-18:30:08.675] kernel: 
+INF [20100506-18:30:08.675] kernel: ==============================
+INF [20100506-18:30:08.675] kernel:           __    __
+INF [20100506-18:30:08.675] kernel:  _____  |  | _|  | _______
+INF [20100506-18:30:08.675] kernel:  \__  \ |  |/ /  |/ /\__  \
+INF [20100506-18:30:08.675] kernel:   / __ \|    <|    <  / __ \_
+INF [20100506-18:30:08.675] kernel:  (____  /__|_ \__|_ \(____  /
+INF [20100506-18:30:08.675] kernel:       \/     \/    \/     \/
+INF [20100506-18:30:08.676] kernel:  Running version 0.8.1
+INF [20100506-18:30:08.677] kernel: ==============================
+INF [20100506-18:30:08.677] kernel: Starting Akka...
+INF [20100506-18:30:08.680] kernel: Loading boot class [com.bodl.app.Boot]
+INF [20100506-18:30:08.729] api: Initializing GlobalStmInstance using factoryMethod 'org.multiverse.stms.alpha.AlphaStm.createFast'.
+INF [20100506-18:30:08.745] alpha: Created a new AlphaStm instance
+INF [20100506-18:30:08.745] api: Successfully initialized GlobalStmInstance using factoryMethod 'org.multiverse.stms.alpha.AlphaStm.createFast'.
+INF [20100506-18:30:08.884] remote: Starting up Cluster Service...
+INF [20100506-18:30:11.590] kernel: Initializing Remote Actors Service...
+INF [20100506-18:30:11.607] kernel: Remote Actors Service initialized!
+INF [20100506-18:30:11.737] kernel: Attempting to start REST service on uri [http://localhost:9998]
+INF [20100506-18:30:11.760] remote: Starting remote server at [localhost:9999]
+INF [20100506-18:30:11.950] kernel: REST service root path [[.]] and context path []
+INF [20100506-18:30:12.329] grizzly: Starting Grizzly Framework 1.9.18-i - Thu May 06 18:30:12 EDT 2010
+INF [20100506-18:30:12.361] kernel: REST service started successfully. Listening to port [9998]
+INF [20100506-18:30:12.522] camel: Camel context initialized
+INF [20100506-18:30:14.104] camel: Camel context started
+INF [20100506-18:30:14.122] kernel: Akka started successfully
+INF [20100506-18:30:23.466] Atmosphere: Atmosphere is using for CometSupport: org.atmosphere.container.GrizzlyCometSupport running under container Grizzly/1.9.18-i
+INF [20100506-18:30:23.534] core: Scanning for root resource and provider classes in the Web app resource paths:
+INF [20100506-18:30:23.534] core:   /WEB-INF/lib
+INF [20100506-18:30:23.534] core:   /WEB-INF/classes
+INF [20100506-18:30:23.730] application: Initiating Jersey application, version 'Jersey: 1.1.5 01/20/2010 03:55 PM'
+INF [20100506-18:30:23.744] application: Adding the following classes declared in META-INF/services/jersey-server-components to the resource configuration:
+INF [20100506-18:30:23.744] application:   class org.atmosphere.jersey.BroadcasterInjector
+INF [20100506-18:30:23.744] application:   class org.atmosphere.jersey.AtmosphereProviders$BroadcasterProvider
+INF [20100506-18:30:23.744] application:   class org.atmosphere.jersey.BroadcasterLookupInjector
+INF [20100506-18:30:23.744] application:   class org.atmosphere.jersey.AtmosphereResourceInjector
+INF [20100506-18:30:23.744] application:   class org.atmosphere.jersey.AtmosphereResourceConfigurator
+INF [20100506-18:30:25.762] Atmosphere: Atmosphere Framework 0.5.4 started.
+INF [20100506-18:35:42.444] config: Config loaded from the application classpath.
+INF [20100506-18:35:42.623] kernel: 
+INF [20100506-18:35:42.623] kernel: ==============================
+INF [20100506-18:35:42.623] kernel:           __    __
+INF [20100506-18:35:42.623] kernel:  _____  |  | _|  | _______
+INF [20100506-18:35:42.623] kernel:  \__  \ |  |/ /  |/ /\__  \
+INF [20100506-18:35:42.623] kernel:   / __ \|    <|    <  / __ \_
+INF [20100506-18:35:42.623] kernel:  (____  /__|_ \__|_ \(____  /
+INF [20100506-18:35:42.623] kernel:       \/     \/    \/     \/
+INF [20100506-18:35:42.624] kernel:  Running version 0.8.1
+INF [20100506-18:35:42.624] kernel: ==============================
+INF [20100506-18:35:42.625] kernel: Starting Akka...
+INF [20100506-18:35:42.628] kernel: Loading boot class [com.bodl.app.Boot]
+INF [20100506-18:35:42.677] api: Initializing GlobalStmInstance using factoryMethod 'org.multiverse.stms.alpha.AlphaStm.createFast'.
+INF [20100506-18:35:42.692] alpha: Created a new AlphaStm instance
+INF [20100506-18:35:42.693] api: Successfully initialized GlobalStmInstance using factoryMethod 'org.multiverse.stms.alpha.AlphaStm.createFast'.
+INF [20100506-18:35:42.834] remote: Starting up Cluster Service...
+INF [20100506-18:35:45.569] kernel: Initializing Remote Actors Service...
+INF [20100506-18:35:45.591] kernel: Remote Actors Service initialized!
+INF [20100506-18:35:45.720] kernel: Attempting to start REST service on uri [http://localhost:9998]
+INF [20100506-18:35:45.805] remote: Starting remote server at [localhost:9999]
+INF [20100506-18:35:45.961] kernel: REST service root path [[.]] and context path []
+INF [20100506-18:35:46.256] grizzly: Starting Grizzly Framework 1.9.18-i - Thu May 06 18:35:46 EDT 2010
+INF [20100506-18:35:46.287] kernel: REST service started successfully. Listening to port [9998]
+INF [20100506-18:35:46.450] camel: Camel context initialized
+INF [20100506-18:35:48.051] camel: Camel context started
+INF [20100506-18:35:48.070] kernel: Akka started successfully
+INF [20100506-18:35:52.224] Atmosphere: Atmosphere is using for CometSupport: org.atmosphere.container.GrizzlyCometSupport running under container Grizzly/1.9.18-i
+INF [20100506-18:35:52.301] core: Scanning for root resource and provider classes in the Web app resource paths:
+INF [20100506-18:35:52.301] core:   /WEB-INF/lib
+INF [20100506-18:35:52.301] core:   /WEB-INF/classes
+INF [20100506-18:35:52.518] application: Initiating Jersey application, version 'Jersey: 1.1.5 01/20/2010 03:55 PM'
+INF [20100506-18:35:52.532] application: Adding the following classes declared in META-INF/services/jersey-server-components to the resource configuration:
+INF [20100506-18:35:52.532] application:   class org.atmosphere.jersey.BroadcasterInjector
+INF [20100506-18:35:52.532] application:   class org.atmosphere.jersey.AtmosphereProviders$BroadcasterProvider
+INF [20100506-18:35:52.532] application:   class org.atmosphere.jersey.BroadcasterLookupInjector
+INF [20100506-18:35:52.532] application:   class org.atmosphere.jersey.AtmosphereResourceInjector
+INF [20100506-18:35:52.532] application:   class org.atmosphere.jersey.AtmosphereResourceConfigurator
+INF [20100506-18:35:54.632] Atmosphere: Atmosphere Framework 0.5.4 started.
+INF [20100506-18:37:05.548] config: Config loaded from the application classpath.
+INF [20100506-18:37:05.703] kernel: 
+INF [20100506-18:37:05.703] kernel: ==============================
+INF [20100506-18:37:05.703] kernel:           __    __
+INF [20100506-18:37:05.703] kernel:  _____  |  | _|  | _______
+INF [20100506-18:37:05.703] kernel:  \__  \ |  |/ /  |/ /\__  \
+INF [20100506-18:37:05.703] kernel:   / __ \|    <|    <  / __ \_
+INF [20100506-18:37:05.703] kernel:  (____  /__|_ \__|_ \(____  /
+INF [20100506-18:37:05.703] kernel:       \/     \/    \/     \/
+INF [20100506-18:37:05.704] kernel:  Running version 0.8.1
+INF [20100506-18:37:05.704] kernel: ==============================
+INF [20100506-18:37:05.704] kernel: Starting Akka...
+INF [20100506-18:37:05.708] kernel: Loading boot class [com.bodl.app.Boot]
+INF [20100506-18:37:05.762] api: Initializing GlobalStmInstance using factoryMethod 'org.multiverse.stms.alpha.AlphaStm.createFast'.
+INF [20100506-18:37:05.777] alpha: Created a new AlphaStm instance
+INF [20100506-18:37:05.777] api: Successfully initialized GlobalStmInstance using factoryMethod 'org.multiverse.stms.alpha.AlphaStm.createFast'.
+INF [20100506-18:37:05.940] remote: Starting up Cluster Service...
+INF [20100506-18:37:08.719] kernel: Initializing Remote Actors Service...
+INF [20100506-18:37:08.733] kernel: Remote Actors Service initialized!
+INF [20100506-18:37:08.877] remote: Starting remote server at [localhost:9999]
+INF [20100506-18:37:08.908] kernel: Attempting to start REST service on uri [http://localhost:9998]
+INF [20100506-18:37:09.075] kernel: REST service root path [[.]] and context path []
+INF [20100506-18:37:09.442] grizzly: Starting Grizzly Framework 1.9.18-i - Thu May 06 18:37:09 EDT 2010
+INF [20100506-18:37:09.482] kernel: REST service started successfully. Listening to port [9998]
+INF [20100506-18:37:09.657] camel: Camel context initialized
+INF [20100506-18:37:11.185] camel: Camel context started
+INF [20100506-18:37:11.203] kernel: Akka started successfully
+INF [20100506-18:37:13.847] Atmosphere: Atmosphere is using for CometSupport: org.atmosphere.container.GrizzlyCometSupport running under container Grizzly/1.9.18-i
+INF [20100506-18:37:13.904] core: Scanning for root resource and provider classes in the Web app resource paths:
+INF [20100506-18:37:13.904] core:   /WEB-INF/lib
+INF [20100506-18:37:13.904] core:   /WEB-INF/classes
+INF [20100506-18:37:14.121] application: Initiating Jersey application, version 'Jersey: 1.1.5 01/20/2010 03:55 PM'
+INF [20100506-18:37:14.134] application: Adding the following classes declared in META-INF/services/jersey-server-components to the resource configuration:
+INF [20100506-18:37:14.134] application:   class org.atmosphere.jersey.BroadcasterInjector
+INF [20100506-18:37:14.134] application:   class org.atmosphere.jersey.AtmosphereProviders$BroadcasterProvider
+INF [20100506-18:37:14.134] application:   class org.atmosphere.jersey.BroadcasterLookupInjector
+INF [20100506-18:37:14.134] application:   class org.atmosphere.jersey.AtmosphereResourceInjector
+INF [20100506-18:37:14.134] application:   class org.atmosphere.jersey.AtmosphereResourceConfigurator
+INF [20100506-18:37:16.085] Atmosphere: Atmosphere Framework 0.5.4 started.
+INF [20100506-21:29:40.948] config: Config loaded from the application classpath.
+INF [20100506-21:29:41.371] kernel: 
+INF [20100506-21:29:41.371] kernel: ==============================
+INF [20100506-21:29:41.371] kernel:           __    __
+INF [20100506-21:29:41.371] kernel:  _____  |  | _|  | _______
+INF [20100506-21:29:41.371] kernel:  \__  \ |  |/ /  |/ /\__  \
+INF [20100506-21:29:41.371] kernel:   / __ \|    <|    <  / __ \_
+INF [20100506-21:29:41.371] kernel:  (____  /__|_ \__|_ \(____  /
+INF [20100506-21:29:41.371] kernel:       \/     \/    \/     \/
+INF [20100506-21:29:41.372] kernel:  Running version 0.8.1
+INF [20100506-21:29:41.380] kernel: ==============================
+INF [20100506-21:29:41.380] kernel: Starting Akka...
+INF [20100506-21:29:41.386] kernel: Loading boot class [com.bodl.app.Boot]
+INF [20100506-21:29:41.493] api: Initializing GlobalStmInstance using factoryMethod 'org.multiverse.stms.alpha.AlphaStm.createFast'.
+INF [20100506-21:29:41.509] alpha: Created a new AlphaStm instance
+INF [20100506-21:29:41.510] api: Successfully initialized GlobalStmInstance using factoryMethod 'org.multiverse.stms.alpha.AlphaStm.createFast'.
+INF [20100506-21:29:41.673] remote: Starting up Cluster Service...
+INF [20100506-21:29:44.802] kernel: Initializing Remote Actors Service...
+INF [20100506-21:29:44.808] kernel: Remote Actors Service initialized!
+INF [20100506-21:29:44.941] remote: Starting remote server at [localhost:9999]
+INF [20100506-21:29:44.995] kernel: Attempting to start REST service on uri [http://localhost:9998]
+INF [20100506-21:29:45.179] kernel: REST service root path [[.]] and context path []
+INF [20100506-21:29:45.474] grizzly: Starting Grizzly Framework 1.9.18-i - Thu May 06 21:29:45 EDT 2010
+INF [20100506-21:29:45.508] kernel: REST service started successfully. Listening to port [9998]
+INF [20100506-21:29:45.702] camel: Camel context initialized
+INF [20100506-21:29:47.337] camel: Camel context started
+INF [20100506-21:29:47.355] kernel: Akka started successfully
+INF [20100506-21:29:55.646] Atmosphere: Atmosphere is using for CometSupport: org.atmosphere.container.GrizzlyCometSupport running under container Grizzly/1.9.18-i
+INF [20100506-21:29:55.687] core: Scanning for root resource and provider classes in the Web app resource paths:
+INF [20100506-21:29:55.687] core:   /WEB-INF/lib
+INF [20100506-21:29:55.687] core:   /WEB-INF/classes
+INF [20100506-21:29:55.914] application: Initiating Jersey application, version 'Jersey: 1.1.5 01/20/2010 03:55 PM'
+INF [20100506-21:29:55.928] application: Adding the following classes declared in META-INF/services/jersey-server-components to the resource configuration:
+INF [20100506-21:29:55.928] application:   class org.atmosphere.jersey.BroadcasterInjector
+INF [20100506-21:29:55.928] application:   class org.atmosphere.jersey.AtmosphereProviders$BroadcasterProvider
+INF [20100506-21:29:55.928] application:   class org.atmosphere.jersey.BroadcasterLookupInjector
+INF [20100506-21:29:55.928] application:   class org.atmosphere.jersey.AtmosphereResourceInjector
+INF [20100506-21:29:55.928] application:   class org.atmosphere.jersey.AtmosphereResourceConfigurator
+INF [20100506-21:29:57.984] Atmosphere: Atmosphere Framework 0.5.4 started.
+INF [20100506-21:50:31.024] config: Config loaded from the application classpath.
+INF [20100506-21:50:31.194] kernel: 
+INF [20100506-21:50:31.194] kernel: ==============================
+INF [20100506-21:50:31.194] kernel:           __    __
+INF [20100506-21:50:31.194] kernel:  _____  |  | _|  | _______
+INF [20100506-21:50:31.194] kernel:  \__  \ |  |/ /  |/ /\__  \
+INF [20100506-21:50:31.194] kernel:   / __ \|    <|    <  / __ \_
+INF [20100506-21:50:31.194] kernel:  (____  /__|_ \__|_ \(____  /
+INF [20100506-21:50:31.194] kernel:       \/     \/    \/     \/
+INF [20100506-21:50:31.195] kernel:  Running version 0.8.1
+INF [20100506-21:50:31.196] kernel: ==============================
+INF [20100506-21:50:31.196] kernel: Starting Akka...
+INF [20100506-21:50:31.199] kernel: Loading boot class [com.bodl.app.Boot]
+INF [20100506-21:50:31.249] api: Initializing GlobalStmInstance using factoryMethod 'org.multiverse.stms.alpha.AlphaStm.createFast'.
+INF [20100506-21:50:31.265] alpha: Created a new AlphaStm instance
+INF [20100506-21:50:31.265] api: Successfully initialized GlobalStmInstance using factoryMethod 'org.multiverse.stms.alpha.AlphaStm.createFast'.
+INF [20100506-21:50:31.406] remote: Starting up Cluster Service...
+INF [20100506-21:50:34.068] kernel: Initializing Remote Actors Service...
+INF [20100506-21:50:34.080] kernel: Remote Actors Service initialized!
+INF [20100506-21:50:34.205] remote: Starting remote server at [localhost:9999]
+INF [20100506-21:50:34.241] kernel: Attempting to start REST service on uri [http://localhost:9998]
+INF [20100506-21:50:34.417] kernel: REST service root path [[.]] and context path []
+INF [20100506-21:50:34.726] grizzly: Starting Grizzly Framework 1.9.18-i - Thu May 06 21:50:34 EDT 2010
+INF [20100506-21:50:34.762] kernel: REST service started successfully. Listening to port [9998]
+INF [20100506-21:50:34.923] camel: Camel context initialized
+INF [20100506-21:50:36.476] camel: Camel context started
+INF [20100506-21:50:36.494] kernel: Akka started successfully
+INF [20100506-21:50:50.521] Atmosphere: Atmosphere is using for CometSupport: org.atmosphere.container.GrizzlyCometSupport running under container Grizzly/1.9.18-i
+INF [20100506-21:50:50.584] core: Scanning for root resource and provider classes in the Web app resource paths:
+INF [20100506-21:50:50.584] core:   /WEB-INF/lib
+INF [20100506-21:50:50.584] core:   /WEB-INF/classes
+INF [20100506-21:50:50.777] application: Initiating Jersey application, version 'Jersey: 1.1.5 01/20/2010 03:55 PM'
+INF [20100506-21:50:50.790] application: Adding the following classes declared in META-INF/services/jersey-server-components to the resource configuration:
+INF [20100506-21:50:50.790] application:   class org.atmosphere.jersey.BroadcasterInjector
+INF [20100506-21:50:50.790] application:   class org.atmosphere.jersey.AtmosphereProviders$BroadcasterProvider
+INF [20100506-21:50:50.790] application:   class org.atmosphere.jersey.BroadcasterLookupInjector
+INF [20100506-21:50:50.790] application:   class org.atmosphere.jersey.AtmosphereResourceInjector
+INF [20100506-21:50:50.790] application:   class org.atmosphere.jersey.AtmosphereResourceConfigurator
+INF [20100506-21:50:52.788] Atmosphere: Atmosphere Framework 0.5.4 started.
+INF [20100506-21:53:24.834] config: Config loaded from the application classpath.
+INF [20100506-21:53:25.008] kernel: 
+INF [20100506-21:53:25.008] kernel: ==============================
+INF [20100506-21:53:25.008] kernel:           __    __
+INF [20100506-21:53:25.008] kernel:  _____  |  | _|  | _______
+INF [20100506-21:53:25.008] kernel:  \__  \ |  |/ /  |/ /\__  \
+INF [20100506-21:53:25.008] kernel:   / __ \|    <|    <  / __ \_
+INF [20100506-21:53:25.008] kernel:  (____  /__|_ \__|_ \(____  /
+INF [20100506-21:53:25.008] kernel:       \/     \/    \/     \/
+INF [20100506-21:53:25.009] kernel:  Running version 0.8.1
+INF [20100506-21:53:25.009] kernel: ==============================
+INF [20100506-21:53:25.010] kernel: Starting Akka...
+INF [20100506-21:53:25.013] kernel: Loading boot class [com.bodl.app.Boot]
+INF [20100506-21:53:25.063] api: Initializing GlobalStmInstance using factoryMethod 'org.multiverse.stms.alpha.AlphaStm.createFast'.
+INF [20100506-21:53:25.079] alpha: Created a new AlphaStm instance
+INF [20100506-21:53:25.080] api: Successfully initialized GlobalStmInstance using factoryMethod 'org.multiverse.stms.alpha.AlphaStm.createFast'.
+INF [20100506-21:53:25.255] remote: Starting up Cluster Service...
+INF [20100506-21:53:27.915] kernel: Initializing Remote Actors Service...
+INF [20100506-21:53:27.925] kernel: Remote Actors Service initialized!
+INF [20100506-21:53:28.083] remote: Starting remote server at [localhost:9999]
+INF [20100506-21:53:28.128] kernel: Attempting to start REST service on uri [http://localhost:9998]
+INF [20100506-21:53:28.300] kernel: REST service root path [[.]] and context path []
+INF [20100506-21:53:28.612] grizzly: Starting Grizzly Framework 1.9.18-i - Thu May 06 21:53:28 EDT 2010
+INF [20100506-21:53:28.644] kernel: REST service started successfully. Listening to port [9998]
+INF [20100506-21:53:28.803] camel: Camel context initialized
+INF [20100506-21:53:30.395] camel: Camel context started
+INF [20100506-21:53:30.411] kernel: Akka started successfully
+INF [20100506-21:53:34.843] Atmosphere: Atmosphere is using for CometSupport: org.atmosphere.container.GrizzlyCometSupport running under container Grizzly/1.9.18-i
+INF [20100506-21:53:34.903] core: Scanning for root resource and provider classes in the Web app resource paths:
+INF [20100506-21:53:34.903] core:   /WEB-INF/lib
+INF [20100506-21:53:34.903] core:   /WEB-INF/classes
+INF [20100506-21:53:35.130] application: Initiating Jersey application, version 'Jersey: 1.1.5 01/20/2010 03:55 PM'
+INF [20100506-21:53:35.142] application: Adding the following classes declared in META-INF/services/jersey-server-components to the resource configuration:
+INF [20100506-21:53:35.142] application:   class org.atmosphere.jersey.BroadcasterInjector
+INF [20100506-21:53:35.142] application:   class org.atmosphere.jersey.AtmosphereProviders$BroadcasterProvider
+INF [20100506-21:53:35.142] application:   class org.atmosphere.jersey.BroadcasterLookupInjector
+INF [20100506-21:53:35.142] application:   class org.atmosphere.jersey.AtmosphereResourceInjector
+INF [20100506-21:53:35.142] application:   class org.atmosphere.jersey.AtmosphereResourceConfigurator
+INF [20100506-21:53:37.100] Atmosphere: Atmosphere Framework 0.5.4 started.
+INF [20100506-22:38:14.707] config: Config loaded from the application classpath.
+INF [20100506-22:38:14.825] kernel: 
+INF [20100506-22:38:14.825] kernel: ==============================
+INF [20100506-22:38:14.825] kernel:           __    __
+INF [20100506-22:38:14.825] kernel:  _____  |  | _|  | _______
+INF [20100506-22:38:14.825] kernel:  \__  \ |  |/ /  |/ /\__  \
+INF [20100506-22:38:14.825] kernel:   / __ \|    <|    <  / __ \_
+INF [20100506-22:38:14.825] kernel:  (____  /__|_ \__|_ \(____  /
+INF [20100506-22:38:14.825] kernel:       \/     \/    \/     \/
+INF [20100506-22:38:14.825] kernel:  Running version 0.8.1
+INF [20100506-22:38:14.826] kernel: ==============================
+INF [20100506-22:38:14.826] kernel: Starting Akka...
+INF [20100506-22:38:14.863] kernel: Loading boot class [com.bodl.app.Boot]
+INF [20100506-22:38:14.961] api: Initializing GlobalStmInstance using factoryMethod 'org.multiverse.stms.alpha.AlphaStm.createFast'.
+INF [20100506-22:38:14.977] alpha: Created a new AlphaStm instance
+INF [20100506-22:38:14.978] api: Successfully initialized GlobalStmInstance using factoryMethod 'org.multiverse.stms.alpha.AlphaStm.createFast'.
+INF [20100506-22:38:15.135] remote: Starting up Cluster Service...
+INF [20100506-22:38:17.939] kernel: Initializing Remote Actors Service...
+INF [20100506-22:38:17.950] kernel: Remote Actors Service initialized!
+INF [20100506-22:38:18.081] kernel: Attempting to start REST service on uri [http://localhost:9998]
+INF [20100506-22:38:18.106] remote: Starting remote server at [localhost:9999]
+INF [20100506-22:38:18.254] kernel: REST service root path [[.]] and context path []
+INF [20100506-22:38:18.586] grizzly: Starting Grizzly Framework 1.9.18-i - Thu May 06 22:38:18 EDT 2010
+INF [20100506-22:38:18.615] kernel: REST service started successfully. Listening to port [9998]
+INF [20100506-22:38:18.768] camel: Camel context initialized
+INF [20100506-22:38:20.290] camel: Camel context started
+INF [20100506-22:38:20.308] kernel: Akka started successfully
+INF [20100506-22:38:39.740] Atmosphere: Atmosphere is using for CometSupport: org.atmosphere.container.GrizzlyCometSupport running under container Grizzly/1.9.18-i
+INF [20100506-22:38:39.814] core: Scanning for root resource and provider classes in the Web app resource paths:
+INF [20100506-22:38:39.814] core:   /WEB-INF/lib
+INF [20100506-22:38:39.814] core:   /WEB-INF/classes
+INF [20100506-22:38:40.034] application: Initiating Jersey application, version 'Jersey: 1.1.5 01/20/2010 03:55 PM'
+INF [20100506-22:38:40.055] application: Adding the following classes declared in META-INF/services/jersey-server-components to the resource configuration:
+INF [20100506-22:38:40.055] application:   class org.atmosphere.jersey.BroadcasterInjector
+INF [20100506-22:38:40.055] application:   class org.atmosphere.jersey.AtmosphereProviders$BroadcasterProvider
+INF [20100506-22:38:40.055] application:   class org.atmosphere.jersey.BroadcasterLookupInjector
+INF [20100506-22:38:40.055] application:   class org.atmosphere.jersey.AtmosphereResourceInjector
+INF [20100506-22:38:40.055] application:   class org.atmosphere.jersey.AtmosphereResourceConfigurator
+INF [20100506-22:38:41.995] Atmosphere: Atmosphere Framework 0.5.4 started.
+INF [20100506-22:43:30.229] config: Config loaded from the application classpath.
+INF [20100506-22:43:30.413] kernel: 
+INF [20100506-22:43:30.413] kernel: ==============================
+INF [20100506-22:43:30.413] kernel:           __    __
+INF [20100506-22:43:30.413] kernel:  _____  |  | _|  | _______
+INF [20100506-22:43:30.413] kernel:  \__  \ |  |/ /  |/ /\__  \
+INF [20100506-22:43:30.413] kernel:   / __ \|    <|    <  / __ \_
+INF [20100506-22:43:30.413] kernel:  (____  /__|_ \__|_ \(____  /
+INF [20100506-22:43:30.413] kernel:       \/     \/    \/     \/
+INF [20100506-22:43:30.414] kernel:  Running version 0.8.1
+INF [20100506-22:43:30.415] kernel: ==============================
+INF [20100506-22:43:30.415] kernel: Starting Akka...
+INF [20100506-22:43:30.419] kernel: Loading boot class [com.bodl.app.Boot]
+INF [20100506-22:43:30.468] api: Initializing GlobalStmInstance using factoryMethod 'org.multiverse.stms.alpha.AlphaStm.createFast'.
+INF [20100506-22:43:30.484] alpha: Created a new AlphaStm instance
+INF [20100506-22:43:30.484] api: Successfully initialized GlobalStmInstance using factoryMethod 'org.multiverse.stms.alpha.AlphaStm.createFast'.
+INF [20100506-22:43:30.623] remote: Starting up Cluster Service...
+INF [20100506-22:43:33.311] kernel: Initializing Remote Actors Service...
+INF [20100506-22:43:33.333] kernel: Remote Actors Service initialized!
+INF [20100506-22:43:33.467] kernel: Attempting to start REST service on uri [http://localhost:9998]
+INF [20100506-22:43:33.640] kernel: REST service root path [[.]] and context path []
+INF [20100506-22:43:34.064] remote: Starting remote server at [localhost:9999]
+INF [20100506-22:43:34.220] grizzly: Starting Grizzly Framework 1.9.18-i - Thu May 06 22:43:34 EDT 2010
+INF [20100506-22:43:34.277] kernel: REST service started successfully. Listening to port [9998]
+INF [20100506-22:43:34.435] camel: Camel context initialized
+INF [20100506-22:43:36.148] camel: Camel context started
+INF [20100506-22:43:36.172] kernel: Akka started successfully
+INF [20100506-22:43:41.656] Atmosphere: Atmosphere is using for CometSupport: org.atmosphere.container.GrizzlyCometSupport running under container Grizzly/1.9.18-i
+INF [20100506-22:43:41.713] core: Scanning for root resource and provider classes in the Web app resource paths:
+INF [20100506-22:43:41.713] core:   /WEB-INF/lib
+INF [20100506-22:43:41.713] core:   /WEB-INF/classes
+INF [20100506-22:43:41.920] application: Initiating Jersey application, version 'Jersey: 1.1.5 01/20/2010 03:55 PM'
+INF [20100506-22:43:41.933] application: Adding the following classes declared in META-INF/services/jersey-server-components to the resource configuration:
+INF [20100506-22:43:41.933] application:   class org.atmosphere.jersey.BroadcasterInjector
+INF [20100506-22:43:41.933] application:   class org.atmosphere.jersey.AtmosphereProviders$BroadcasterProvider
+INF [20100506-22:43:41.933] application:   class org.atmosphere.jersey.BroadcasterLookupInjector
+INF [20100506-22:43:41.933] application:   class org.atmosphere.jersey.AtmosphereResourceInjector
+INF [20100506-22:43:41.933] application:   class org.atmosphere.jersey.AtmosphereResourceConfigurator
+INF [20100506-22:43:43.850] Atmosphere: Atmosphere Framework 0.5.4 started.
+ERR [20100506-22:43:44.016] actor: Exception when invoking 
+ERR [20100506-22:43:44.016] actor: 	actor [Actor[com.bodl.rest.CbidRestService:1273284096665]] 
+ERR [20100506-22:43:44.016] actor: 	with message [Download(foo.jpg)]
+ERR [20100506-22:43:44.016] actor: javax.ws.rs.WebApplicationException
+ERR [20100506-22:43:44.016] actor:     at com.bodl.rest.CbidRestService$$anonfun$receive$1.apply(CbidRestService.scala:84)
+ERR [20100506-22:43:44.016] actor:     at com.bodl.rest.CbidRestService$$anonfun$receive$1.apply(CbidRestService.scala:78)
+ERR [20100506-22:43:44.016] actor:     at scala.PartialFunction$$anon$1.apply(PartialFunction.scala:47)
+ERR [20100506-22:43:44.016] actor:     at se.scalablesolutions.akka.actor.Actor$class.proceed$1(Actor.scala:951)
+ERR [20100506-22:43:44.016] actor:     at se.scalablesolutions.akka.actor.Actor$$anonfun$transactionalDispatch$1.apply(Actor.scala:961)
+ERR [20100506-22:43:44.016] actor:     at se.scalablesolutions.akka.actor.Actor$$anonfun$transactionalDispatch$1.apply(Actor.scala:961)
+ERR [20100506-22:43:44.016] actor:     at se.scalablesolutions.akka.stm.Transaction$Global$$anon$5.execute(Transaction.scala:236)
+ERR [20100506-22:43:44.016] actor:     at org.multiverse.templates.TransactionTemplate.executeWithTransaction(TransactionTemplate.java:296)
+ERR [20100506-22:43:44.016] actor:     at org.multiverse.templates.TransactionTemplate.executeChecked(TransactionTemplate.java:269)
+ERR [20100506-22:43:44.016] actor:     at org.multiverse.templates.TransactionTemplate.execute(TransactionTemplate.java:244)
+ERR [20100506-22:43:44.016] actor:     at se.scalablesolutions.akka.stm.Transaction$Global$.atomic(Transaction.scala:266)
+ERR [20100506-22:43:44.016] actor:     at se.scalablesolutions.akka.actor.Actor$class.transactionalDispatch(Actor.scala:960)
+ERR [20100506-22:43:44.016] actor:     at se.scalablesolutions.akka.actor.Actor$class.liftedTree1$1(Actor.scala:901)
+ERR [20100506-22:43:44.016] actor:     at se.scalablesolutions.akka.actor.Actor$class.invoke(Actor.scala:900)
+ERR [20100506-22:43:44.016] actor:     at com.bodl.rest.CbidRestService.invoke(CbidRestService.scala:31)
+ERR [20100506-22:43:44.016] actor:     at se.scalablesolutions.akka.dispatch.MessageInvocation.invoke(Reactor.scala:23)
+ERR [20100506-22:43:44.016] actor:     at se.scalablesolutions.akka.dispatch.ExecutorBasedEventDrivenDispatcher$$anon$1.run(ExecutorBasedEventDrivenDispatcher.scala:75)
+ERR [20100506-22:43:44.016] actor:     at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+ERR [20100506-22:43:44.016] actor:     at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+ERR [20100506-22:43:44.016] actor:     at java.lang.Thread.run(Thread.java:637)
+ERR [20100506-22:43:44.016] actor:     at se.scalablesolutions.akka.dispatch.ThreadPoolBuilder$MonitorableThread.run(ThreadPoolBuilder.scala:244)
+INF [20100506-22:43:44.087] actor: Restarting actor [com.bodl.rest.CbidRestService] configured as PERMANENT.
+ERR [20100506-22:43:52.255] actor: Exception when invoking 
+ERR [20100506-22:43:52.255] actor: 	actor [Actor[com.bodl.rest.CbidRestService:1273284096665]] 
+ERR [20100506-22:43:52.255] actor: 	with message [Download(foo.xml)]
+ERR [20100506-22:43:52.255] actor: javax.ws.rs.WebApplicationException
+ERR [20100506-22:43:52.255] actor:     at com.bodl.rest.CbidRestService$$anonfun$receive$1.apply(CbidRestService.scala:84)
+ERR [20100506-22:43:52.255] actor:     at com.bodl.rest.CbidRestService$$anonfun$receive$1.apply(CbidRestService.scala:78)
+ERR [20100506-22:43:52.255] actor:     at scala.PartialFunction$$anon$1.apply(PartialFunction.scala:47)
+ERR [20100506-22:43:52.255] actor:     at se.scalablesolutions.akka.actor.Actor$class.proceed$1(Actor.scala:951)
+ERR [20100506-22:43:52.255] actor:     at se.scalablesolutions.akka.actor.Actor$$anonfun$transactionalDispatch$1.apply(Actor.scala:961)
+ERR [20100506-22:43:52.255] actor:     at se.scalablesolutions.akka.actor.Actor$$anonfun$transactionalDispatch$1.apply(Actor.scala:961)
+ERR [20100506-22:43:52.255] actor:     at se.scalablesolutions.akka.stm.Transaction$Global$$anon$5.execute(Transaction.scala:236)
+ERR [20100506-22:43:52.255] actor:     at org.multiverse.templates.TransactionTemplate.executeWithTransaction(TransactionTemplate.java:296)
+ERR [20100506-22:43:52.255] actor:     at org.multiverse.templates.TransactionTemplate.executeChecked(TransactionTemplate.java:269)
+ERR [20100506-22:43:52.255] actor:     at org.multiverse.templates.TransactionTemplate.execute(TransactionTemplate.java:244)
+ERR [20100506-22:43:52.255] actor:     at se.scalablesolutions.akka.stm.Transaction$Global$.atomic(Transaction.scala:266)
+ERR [20100506-22:43:52.255] actor:     at se.scalablesolutions.akka.actor.Actor$class.transactionalDispatch(Actor.scala:960)
+ERR [20100506-22:43:52.255] actor:     at se.scalablesolutions.akka.actor.Actor$class.liftedTree1$1(Actor.scala:901)
+ERR [20100506-22:43:52.255] actor:     at se.scalablesolutions.akka.actor.Actor$class.invoke(Actor.scala:900)
+ERR [20100506-22:43:52.255] actor:     at com.bodl.rest.CbidRestService.invoke(CbidRestService.scala:31)
+ERR [20100506-22:43:52.255] actor:     at se.scalablesolutions.akka.dispatch.MessageInvocation.invoke(Reactor.scala:23)
+ERR [20100506-22:43:52.255] actor:     at se.scalablesolutions.akka.dispatch.ExecutorBasedEventDrivenDispatcher$$anon$1.run(ExecutorBasedEventDrivenDispatcher.scala:75)
+ERR [20100506-22:43:52.255] actor:     at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+ERR [20100506-22:43:52.255] actor:     at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+ERR [20100506-22:43:52.255] actor:     at java.lang.Thread.run(Thread.java:637)
+ERR [20100506-22:43:52.255] actor:     at se.scalablesolutions.akka.dispatch.ThreadPoolBuilder$MonitorableThread.run(ThreadPoolBuilder.scala:244)
+INF [20100506-22:43:52.260] actor: Restarting actor [com.bodl.rest.CbidRestService] configured as PERMANENT.
+ERR [20100506-22:57:44.345] actor: Exception when invoking 
+ERR [20100506-22:57:44.345] actor: 	actor [Actor[com.bodl.rest.CbidRestService:1273284096665]] 
+ERR [20100506-22:57:44.345] actor: 	with message [Download(foo.bar)]
+ERR [20100506-22:57:44.345] actor: javax.ws.rs.WebApplicationException
+ERR [20100506-22:57:44.345] actor:     at com.bodl.rest.CbidRestService$$anonfun$receive$1.apply(CbidRestService.scala:84)
+ERR [20100506-22:57:44.345] actor:     at com.bodl.rest.CbidRestService$$anonfun$receive$1.apply(CbidRestService.scala:78)
+ERR [20100506-22:57:44.345] actor:     at scala.PartialFunction$$anon$1.apply(PartialFunction.scala:47)
+ERR [20100506-22:57:44.345] actor:     at se.scalablesolutions.akka.actor.Actor$class.proceed$1(Actor.scala:951)
+ERR [20100506-22:57:44.345] actor:     at se.scalablesolutions.akka.actor.Actor$$anonfun$transactionalDispatch$1.apply(Actor.scala:961)
+ERR [20100506-22:57:44.345] actor:     at se.scalablesolutions.akka.actor.Actor$$anonfun$transactionalDispatch$1.apply(Actor.scala:961)
+ERR [20100506-22:57:44.345] actor:     at se.scalablesolutions.akka.stm.Transaction$Global$$anon$5.execute(Transaction.scala:236)
+ERR [20100506-22:57:44.345] actor:     at org.multiverse.templates.TransactionTemplate.executeWithTransaction(TransactionTemplate.java:296)
+ERR [20100506-22:57:44.345] actor:     at org.multiverse.templates.TransactionTemplate.executeChecked(TransactionTemplate.java:269)
+ERR [20100506-22:57:44.345] actor:     at org.multiverse.templates.TransactionTemplate.execute(TransactionTemplate.java:244)
+ERR [20100506-22:57:44.345] actor:     at se.scalablesolutions.akka.stm.Transaction$Global$.atomic(Transaction.scala:266)
+ERR [20100506-22:57:44.345] actor:     at se.scalablesolutions.akka.actor.Actor$class.transactionalDispatch(Actor.scala:960)
+ERR [20100506-22:57:44.345] actor:     at se.scalablesolutions.akka.actor.Actor$class.liftedTree1$1(Actor.scala:901)
+ERR [20100506-22:57:44.345] actor:     at se.scalablesolutions.akka.actor.Actor$class.invoke(Actor.scala:900)
+ERR [20100506-22:57:44.345] actor:     at com.bodl.rest.CbidRestService.invoke(CbidRestService.scala:31)
+ERR [20100506-22:57:44.345] actor:     at se.scalablesolutions.akka.dispatch.MessageInvocation.invoke(Reactor.scala:23)
+ERR [20100506-22:57:44.345] actor:     at se.scalablesolutions.akka.dispatch.ExecutorBasedEventDrivenDispatcher$$anon$1.run(ExecutorBasedEventDrivenDispatcher.scala:75)
+ERR [20100506-22:57:44.345] actor:     at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+ERR [20100506-22:57:44.345] actor:     at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+ERR [20100506-22:57:44.345] actor:     at java.lang.Thread.run(Thread.java:637)
+ERR [20100506-22:57:44.345] actor:     at se.scalablesolutions.akka.dispatch.ThreadPoolBuilder$MonitorableThread.run(ThreadPoolBuilder.scala:244)
+INF [20100506-22:57:44.347] actor: Restarting actor [com.bodl.rest.CbidRestService] configured as PERMANENT.
+INF [20100506-23:02:58.348] config: Config loaded from the application classpath.
+INF [20100506-23:02:58.457] kernel: 
+INF [20100506-23:02:58.457] kernel: ==============================
+INF [20100506-23:02:58.457] kernel:           __    __
+INF [20100506-23:02:58.457] kernel:  _____  |  | _|  | _______
+INF [20100506-23:02:58.457] kernel:  \__  \ |  |/ /  |/ /\__  \
+INF [20100506-23:02:58.457] kernel:   / __ \|    <|    <  / __ \_
+INF [20100506-23:02:58.457] kernel:  (____  /__|_ \__|_ \(____  /
+INF [20100506-23:02:58.457] kernel:       \/     \/    \/     \/
+INF [20100506-23:02:58.457] kernel:  Running version 0.8.1
+INF [20100506-23:02:58.458] kernel: ==============================
+INF [20100506-23:02:58.458] kernel: Starting Akka...
+INF [20100506-23:02:58.512] kernel: Loading boot class [com.bodl.app.Boot]
+INF [20100506-23:02:58.561] api: Initializing GlobalStmInstance using factoryMethod 'org.multiverse.stms.alpha.AlphaStm.createFast'.
+INF [20100506-23:02:58.576] alpha: Created a new AlphaStm instance
+INF [20100506-23:02:58.577] api: Successfully initialized GlobalStmInstance using factoryMethod 'org.multiverse.stms.alpha.AlphaStm.createFast'.
+INF [20100506-23:02:58.720] remote: Starting up Cluster Service...
+INF [20100506-23:03:01.381] kernel: Initializing Remote Actors Service...
+INF [20100506-23:03:01.399] kernel: Remote Actors Service initialized!
+INF [20100506-23:03:01.527] remote: Starting remote server at [localhost:9999]
+INF [20100506-23:03:01.589] kernel: Attempting to start REST service on uri [http://localhost:9998]
+INF [20100506-23:03:01.757] kernel: REST service root path [[.]] and context path []
+INF [20100506-23:03:02.054] grizzly: Starting Grizzly Framework 1.9.18-i - Thu May 06 23:03:02 EDT 2010
+INF [20100506-23:03:02.085] kernel: REST service started successfully. Listening to port [9998]
+INF [20100506-23:03:02.238] camel: Camel context initialized
+INF [20100506-23:03:03.785] camel: Camel context started
+INF [20100506-23:03:03.808] kernel: Akka started successfully
+INF [20100506-23:03:15.404] Atmosphere: Atmosphere is using for CometSupport: org.atmosphere.container.GrizzlyCometSupport running under container Grizzly/1.9.18-i
+INF [20100506-23:03:15.490] core: Scanning for root resource and provider classes in the Web app resource paths:
+INF [20100506-23:03:15.490] core:   /WEB-INF/lib
+INF [20100506-23:03:15.490] core:   /WEB-INF/classes
+INF [20100506-23:03:15.716] application: Initiating Jersey application, version 'Jersey: 1.1.5 01/20/2010 03:55 PM'
+INF [20100506-23:03:15.729] application: Adding the following classes declared in META-INF/services/jersey-server-components to the resource configuration:
+INF [20100506-23:03:15.729] application:   class org.atmosphere.jersey.BroadcasterInjector
+INF [20100506-23:03:15.729] application:   class org.atmosphere.jersey.AtmosphereProviders$BroadcasterProvider
+INF [20100506-23:03:15.729] application:   class org.atmosphere.jersey.BroadcasterLookupInjector
+INF [20100506-23:03:15.729] application:   class org.atmosphere.jersey.AtmosphereResourceInjector
+INF [20100506-23:03:15.729] application:   class org.atmosphere.jersey.AtmosphereResourceConfigurator
+INF [20100506-23:03:17.707] Atmosphere: Atmosphere Framework 0.5.4 started.
+INF [20100511-22:32:53.572] config: Config loaded from the application classpath.
+INF [20100511-22:32:53.885] kernel: 
+INF [20100511-22:32:53.885] kernel: ==============================
+INF [20100511-22:32:53.885] kernel:           __    __
+INF [20100511-22:32:53.885] kernel:  _____  |  | _|  | _______
+INF [20100511-22:32:53.885] kernel:  \__  \ |  |/ /  |/ /\__  \
+INF [20100511-22:32:53.885] kernel:   / __ \|    <|    <  / __ \_
+INF [20100511-22:32:53.885] kernel:  (____  /__|_ \__|_ \(____  /
+INF [20100511-22:32:53.885] kernel:       \/     \/    \/     \/
+INF [20100511-22:32:53.885] kernel:  Running version 0.8.1
+INF [20100511-22:32:53.885] kernel: ==============================
+INF [20100511-22:32:53.886] kernel: Starting Akka...
+INF [20100511-22:32:53.889] kernel: Loading boot class [com.bodl.app.Boot]
+INF [20100511-22:33:59.239] config: Config loaded from the application classpath.
+INF [20100511-22:33:59.299] kernel: 
+INF [20100511-22:33:59.299] kernel: ==============================
+INF [20100511-22:33:59.299] kernel:           __    __
+INF [20100511-22:33:59.299] kernel:  _____  |  | _|  | _______
+INF [20100511-22:33:59.299] kernel:  \__  \ |  |/ /  |/ /\__  \
+INF [20100511-22:33:59.299] kernel:   / __ \|    <|    <  / __ \_
+INF [20100511-22:33:59.299] kernel:  (____  /__|_ \__|_ \(____  /
+INF [20100511-22:33:59.299] kernel:       \/     \/    \/     \/
+INF [20100511-22:33:59.299] kernel:  Running version 0.8.1
+INF [20100511-22:33:59.300] kernel: ==============================
+INF [20100511-22:33:59.300] kernel: Starting Akka...
+INF [20100511-22:33:59.302] kernel: Loading boot class [example.akka.mongo.bookmarks.app.Boot]
+INF [20100511-22:33:59.475] remote: Starting up Cluster Service...
+INF [20100511-22:34:02.703] kernel: Initializing Remote Actors Service...
+INF [20100511-22:34:02.715] kernel: Remote Actors Service initialized!
+INF [20100511-22:34:02.970] kernel: Attempting to start REST service on uri [http://localhost:9998]
+INF [20100511-22:34:03.151] remote: Starting remote server at [localhost:9999]
+INF [20100511-22:34:03.243] kernel: REST service root path [[.]] and context path []
+INF [20100511-22:34:03.567] grizzly: Starting Grizzly Framework 1.9.18-i - Tue May 11 22:34:03 EDT 2010
+INF [20100511-22:34:03.596] kernel: REST service started successfully. Listening to port [9998]
+INF [20100511-22:34:03.744] camel: Camel context initialized
+INF [20100511-22:34:05.664] camel: Camel context started
+INF [20100511-22:34:05.688] kernel: Akka started successfully
+INF [20100511-22:34:20.702] Atmosphere: Atmosphere is using for CometSupport: org.atmosphere.container.GrizzlyCometSupport running under container Grizzly/1.9.18-i
+INF [20100511-22:34:20.768] core: Scanning for root resource and provider classes in the Web app resource paths:
+INF [20100511-22:34:20.768] core:   /WEB-INF/lib
+INF [20100511-22:34:20.768] core:   /WEB-INF/classes
+INF [20100511-22:34:21.029] application: Initiating Jersey application, version 'Jersey: 1.1.5 01/20/2010 03:55 PM'
+INF [20100511-22:34:21.057] application: Adding the following classes declared in META-INF/services/jersey-server-components to the resource configuration:
+INF [20100511-22:34:21.057] application:   class org.atmosphere.jersey.BroadcasterInjector
+INF [20100511-22:34:21.057] application:   class org.atmosphere.jersey.AtmosphereProviders$BroadcasterProvider
+INF [20100511-22:34:21.057] application:   class org.atmosphere.jersey.BroadcasterLookupInjector
+INF [20100511-22:34:21.057] application:   class org.atmosphere.jersey.AtmosphereResourceInjector
+INF [20100511-22:34:21.057] application:   class org.atmosphere.jersey.AtmosphereResourceConfigurator
+INF [20100511-22:34:22.952] Atmosphere: Atmosphere Framework 0.5.4 started.
+INF [20100511-22:34:52.848] api: Initializing GlobalStmInstance using factoryMethod 'org.multiverse.stms.alpha.AlphaStm.createFast'.
+INF [20100511-22:34:52.879] alpha: Created a new AlphaStm instance
+INF [20100511-22:34:52.879] api: Successfully initialized GlobalStmInstance using factoryMethod 'org.multiverse.stms.alpha.AlphaStm.createFast'.
+FAT [20100511-22:34:52.962] container: The RuntimeException could not be mapped to a response, re-throwing to the HTTP container
+FAT [20100511-22:34:52.962] container: java.lang.ClassCastException: java.lang.String cannot be cast to javax.ws.rs.core.Response
+FAT [20100511-22:34:52.962] container:     at example.akka.mongo.bookmarks.rest.UsersRest.show(UserService.scala:49)
+FAT [20100511-22:34:52.962] container:     at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+FAT [20100511-22:34:52.962] container:     at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+FAT [20100511-22:34:52.962] container:     at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+FAT [20100511-22:34:52.962] container:     at java.lang.reflect.Method.invoke(Method.java:597)
+FAT [20100511-22:34:52.962] container:     at com.sun.jersey.server.impl.model.method.dispatch.AbstractResourceMethodDispatchProvider$ResponseOutInvoker._dispatch(AbstractResourceMethodDispatchProvider.java:168)
+FAT [20100511-22:34:52.962] container:     at com.sun.jersey.server.impl.model.method.dispatch.ResourceJavaMethodDispatcher.dispatch(ResourceJavaMethodDispatcher.java:67)
+FAT [20100511-22:34:52.962] container:     at com.sun.jersey.server.impl.uri.rules.HttpMethodRule.accept(HttpMethodRule.java:259)
+FAT [20100511-22:34:52.962] container:     at com.sun.jersey.server.impl.uri.rules.RightHandPathRule.accept(RightHandPathRule.java:133)
+FAT [20100511-22:34:52.962] container:     at com.sun.jersey.server.impl.uri.rules.ResourceClassRule.accept(ResourceClassRule.java:83)
+FAT [20100511-22:34:52.962] container:     at com.sun.jersey.server.impl.uri.rules.RightHandPathRule.accept(RightHandPathRule.java:133)
+FAT [20100511-22:34:52.962] container:     at com.sun.jersey.server.impl.uri.rules.RootResourceClassesRule.accept(RootResourceClassesRule.java:71)
+FAT [20100511-22:34:52.962] container:     at com.sun.jersey.server.impl.application.WebApplicationImpl._handleRequest(WebApplicationImpl.java:990)
+FAT [20100511-22:34:52.962] container:     at com.sun.jersey.server.impl.application.WebApplicationImpl.handleRequest(WebApplicationImpl.java:941)
+FAT [20100511-22:34:52.962] container:     at com.sun.jersey.server.impl.application.WebApplicationImpl.handleRequest(WebApplicationImpl.java:932)
+FAT [20100511-22:34:52.962] container:     at com.sun.jersey.spi.container.servlet.WebComponent.service(WebComponent.java:384)
+FAT [20100511-22:34:52.962] container:     at com.sun.jersey.spi.container.servlet.ServletContainer.service(ServletContainer.java:451)
+FAT [20100511-22:34:52.962] container:     at com.sun.jersey.spi.container.servlet.ServletContainer.service(ServletContainer.java:632)
+FAT [20100511-22:34:52.962] container:     at se.scalablesolutions.akka.comet.AkkaServlet$$anon$1$$anon$2.onRequest(AkkaServlet.scala:33)
+FAT [20100511-22:34:52.962] container:     at se.scalablesolutions.akka.comet.AkkaServlet$$anon$1.onRequest(AkkaServlet.scala:43)
+FAT [20100511-22:34:52.962] container:     at org.atmosphere.cpr.AsynchronousProcessor.action(AsynchronousProcessor.java:145)
+FAT [20100511-22:34:52.962] container:     at org.atmosphere.cpr.AsynchronousProcessor.suspended(AsynchronousProcessor.java:119)
+FAT [20100511-22:34:52.962] container:     at org.atmosphere.container.GrizzlyCometSupport.service(GrizzlyCometSupport.java:99)
+FAT [20100511-22:34:52.962] container:     at org.atmosphere.cpr.AtmosphereServlet.doCometSupport(AtmosphereServlet.java:803)
+FAT [20100511-22:34:52.962] container:     at org.atmosphere.cpr.AtmosphereServlet.doPost(AtmosphereServlet.java:786)
+FAT [20100511-22:34:52.962] container:     at org.atmosphere.cpr.AtmosphereServlet.doGet(AtmosphereServlet.java:773)
+FAT [20100511-22:34:52.962] container:     at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+FAT [20100511-22:34:52.962] container:     at javax.servlet.http.HttpServlet.service(HttpServlet.java:820)
+FAT [20100511-22:34:52.962] container:     at com.sun.grizzly.http.servlet.FilterChainImpl.doFilter(FilterChainImpl.java:195)
+FAT [20100511-22:34:52.962] container:     at com.sun.grizzly.http.servlet.FilterChainImpl.invokeFilterChain(FilterChainImpl.java:139)
+FAT [20100511-22:34:52.962] container:     (...more...)
+FAT [20100511-22:34:52.971] grizzly: service exception:
+FAT [20100511-22:34:52.971] grizzly: java.lang.ClassCastException: java.lang.String cannot be cast to javax.ws.rs.core.Response
+FAT [20100511-22:34:52.971] grizzly:     at example.akka.mongo.bookmarks.rest.UsersRest.show(UserService.scala:49)
+FAT [20100511-22:34:52.971] grizzly:     at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+FAT [20100511-22:34:52.971] grizzly:     at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+FAT [20100511-22:34:52.971] grizzly:     at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+FAT [20100511-22:34:52.971] grizzly:     at java.lang.reflect.Method.invoke(Method.java:597)
+FAT [20100511-22:34:52.971] grizzly:     at com.sun.jersey.server.impl.model.method.dispatch.AbstractResourceMethodDispatchProvider$ResponseOutInvoker._dispatch(AbstractResourceMethodDispatchProvider.java:168)
+FAT [20100511-22:34:52.971] grizzly:     at com.sun.jersey.server.impl.model.method.dispatch.ResourceJavaMethodDispatcher.dispatch(ResourceJavaMethodDispatcher.java:67)
+FAT [20100511-22:34:52.971] grizzly:     at com.sun.jersey.server.impl.uri.rules.HttpMethodRule.accept(HttpMethodRule.java:259)
+FAT [20100511-22:34:52.971] grizzly:     at com.sun.jersey.server.impl.uri.rules.RightHandPathRule.accept(RightHandPathRule.java:133)
+FAT [20100511-22:34:52.971] grizzly:     at com.sun.jersey.server.impl.uri.rules.ResourceClassRule.accept(ResourceClassRule.java:83)
+FAT [20100511-22:34:52.971] grizzly:     at com.sun.jersey.server.impl.uri.rules.RightHandPathRule.accept(RightHandPathRule.java:133)
+FAT [20100511-22:34:52.971] grizzly:     at com.sun.jersey.server.impl.uri.rules.RootResourceClassesRule.accept(RootResourceClassesRule.java:71)
+FAT [20100511-22:34:52.971] grizzly:     at com.sun.jersey.server.impl.application.WebApplicationImpl._handleRequest(WebApplicationImpl.java:990)
+FAT [20100511-22:34:52.971] grizzly:     at com.sun.jersey.server.impl.application.WebApplicationImpl.handleRequest(WebApplicationImpl.java:941)
+FAT [20100511-22:34:52.971] grizzly:     at com.sun.jersey.server.impl.application.WebApplicationImpl.handleRequest(WebApplicationImpl.java:932)
+FAT [20100511-22:34:52.971] grizzly:     at com.sun.jersey.spi.container.servlet.WebComponent.service(WebComponent.java:384)
+FAT [20100511-22:34:52.971] grizzly:     at com.sun.jersey.spi.container.servlet.ServletContainer.service(ServletContainer.java:451)
+FAT [20100511-22:34:52.971] grizzly:     at com.sun.jersey.spi.container.servlet.ServletContainer.service(ServletContainer.java:632)
+FAT [20100511-22:34:52.971] grizzly:     at se.scalablesolutions.akka.comet.AkkaServlet$$anon$1$$anon$2.onRequest(AkkaServlet.scala:33)
+FAT [20100511-22:34:52.971] grizzly:     at se.scalablesolutions.akka.comet.AkkaServlet$$anon$1.onRequest(AkkaServlet.scala:43)
+FAT [20100511-22:34:52.971] grizzly:     at org.atmosphere.cpr.AsynchronousProcessor.action(AsynchronousProcessor.java:145)
+FAT [20100511-22:34:52.971] grizzly:     at org.atmosphere.cpr.AsynchronousProcessor.suspended(AsynchronousProcessor.java:119)
+FAT [20100511-22:34:52.971] grizzly:     at org.atmosphere.container.GrizzlyCometSupport.service(GrizzlyCometSupport.java:99)
+FAT [20100511-22:34:52.971] grizzly:     at org.atmosphere.cpr.AtmosphereServlet.doCometSupport(AtmosphereServlet.java:803)
+FAT [20100511-22:34:52.971] grizzly:     at org.atmosphere.cpr.AtmosphereServlet.doPost(AtmosphereServlet.java:786)
+FAT [20100511-22:34:52.971] grizzly:     at org.atmosphere.cpr.AtmosphereServlet.doGet(AtmosphereServlet.java:773)
+FAT [20100511-22:34:52.971] grizzly:     at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+FAT [20100511-22:34:52.971] grizzly:     at javax.servlet.http.HttpServlet.service(HttpServlet.java:820)
+FAT [20100511-22:34:52.971] grizzly:     at com.sun.grizzly.http.servlet.FilterChainImpl.doFilter(FilterChainImpl.java:195)
+FAT [20100511-22:34:52.971] grizzly:     at com.sun.grizzly.http.servlet.FilterChainImpl.invokeFilterChain(FilterChainImpl.java:139)
+FAT [20100511-22:34:52.971] grizzly:     (...more...)
+INF [20100511-22:38:20.994] config: Config loaded from the application classpath.
+INF [20100511-22:38:21.074] kernel: 
+INF [20100511-22:38:21.074] kernel: ==============================
+INF [20100511-22:38:21.074] kernel:           __    __
+INF [20100511-22:38:21.074] kernel:  _____  |  | _|  | _______
+INF [20100511-22:38:21.074] kernel:  \__  \ |  |/ /  |/ /\__  \
+INF [20100511-22:38:21.074] kernel:   / __ \|    <|    <  / __ \_
+INF [20100511-22:38:21.074] kernel:  (____  /__|_ \__|_ \(____  /
+INF [20100511-22:38:21.074] kernel:       \/     \/    \/     \/
+INF [20100511-22:38:21.088] kernel:  Running version 0.8.1
+INF [20100511-22:38:21.088] kernel: ==============================
+INF [20100511-22:38:21.089] kernel: Starting Akka...
+INF [20100511-22:38:21.097] kernel: Loading boot class [example.akka.mongo.bookmarks.app.Boot]
+INF [20100511-22:38:21.137] remote: Starting up Cluster Service...
+INF [20100511-22:38:23.792] kernel: Initializing Remote Actors Service...
+INF [20100511-22:38:23.808] kernel: Remote Actors Service initialized!
+INF [20100511-22:38:23.918] kernel: Attempting to start REST service on uri [http://localhost:9998]
+INF [20100511-22:38:23.932] remote: Starting remote server at [localhost:9999]
+INF [20100511-22:38:24.089] kernel: REST service root path [[.]] and context path []
+INF [20100511-22:38:24.248] grizzly: Starting Grizzly Framework 1.9.18-i - Tue May 11 22:38:24 EDT 2010
+INF [20100511-22:38:24.271] kernel: REST service started successfully. Listening to port [9998]
+INF [20100511-22:38:24.334] camel: Camel context initialized
+INF [20100511-22:38:25.609] camel: Camel context started
+INF [20100511-22:38:25.618] kernel: Akka started successfully
+INF [20100511-22:38:32.159] Atmosphere: Atmosphere is using for CometSupport: org.atmosphere.container.GrizzlyCometSupport running under container Grizzly/1.9.18-i
+INF [20100511-22:38:32.189] core: Scanning for root resource and provider classes in the Web app resource paths:
+INF [20100511-22:38:32.189] core:   /WEB-INF/lib
+INF [20100511-22:38:32.189] core:   /WEB-INF/classes
+INF [20100511-22:38:32.299] application: Initiating Jersey application, version 'Jersey: 1.1.5 01/20/2010 03:55 PM'
+INF [20100511-22:38:32.308] application: Adding the following classes declared in META-INF/services/jersey-server-components to the resource configuration:
+INF [20100511-22:38:32.308] application:   class org.atmosphere.jersey.BroadcasterInjector
+INF [20100511-22:38:32.308] application:   class org.atmosphere.jersey.AtmosphereProviders$BroadcasterProvider
+INF [20100511-22:38:32.308] application:   class org.atmosphere.jersey.BroadcasterLookupInjector
+INF [20100511-22:38:32.308] application:   class org.atmosphere.jersey.AtmosphereResourceInjector
+INF [20100511-22:38:32.308] application:   class org.atmosphere.jersey.AtmosphereResourceConfigurator
+INF [20100511-22:38:33.507] Atmosphere: Atmosphere Framework 0.5.4 started.
+INF [20100511-22:38:33.552] api: Initializing GlobalStmInstance using factoryMethod 'org.multiverse.stms.alpha.AlphaStm.createFast'.
+INF [20100511-22:38:33.565] alpha: Created a new AlphaStm instance
+INF [20100511-22:38:33.565] api: Successfully initialized GlobalStmInstance using factoryMethod 'org.multiverse.stms.alpha.AlphaStm.createFast'.
+FAT [20100511-22:38:33.599] container: The RuntimeException could not be mapped to a response, re-throwing to the HTTP container
+FAT [20100511-22:38:33.599] container: java.lang.ClassCastException: java.lang.String cannot be cast to javax.ws.rs.core.Response
+FAT [20100511-22:38:33.599] container:     at example.akka.mongo.bookmarks.rest.UsersRest.show(UserService.scala:51)
+FAT [20100511-22:38:33.599] container:     at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+FAT [20100511-22:38:33.599] container:     at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+FAT [20100511-22:38:33.599] container:     at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+FAT [20100511-22:38:33.599] container:     at java.lang.reflect.Method.invoke(Method.java:597)
+FAT [20100511-22:38:33.599] container:     at com.sun.jersey.server.impl.model.method.dispatch.AbstractResourceMethodDispatchProvider$ResponseOutInvoker._dispatch(AbstractResourceMethodDispatchProvider.java:168)
+FAT [20100511-22:38:33.599] container:     at com.sun.jersey.server.impl.model.method.dispatch.ResourceJavaMethodDispatcher.dispatch(ResourceJavaMethodDispatcher.java:67)
+FAT [20100511-22:38:33.599] container:     at com.sun.jersey.server.impl.uri.rules.HttpMethodRule.accept(HttpMethodRule.java:259)
+FAT [20100511-22:38:33.599] container:     at com.sun.jersey.server.impl.uri.rules.RightHandPathRule.accept(RightHandPathRule.java:133)
+FAT [20100511-22:38:33.599] container:     at com.sun.jersey.server.impl.uri.rules.ResourceClassRule.accept(ResourceClassRule.java:83)
+FAT [20100511-22:38:33.599] container:     at com.sun.jersey.server.impl.uri.rules.RightHandPathRule.accept(RightHandPathRule.java:133)
+FAT [20100511-22:38:33.599] container:     at com.sun.jersey.server.impl.uri.rules.RootResourceClassesRule.accept(RootResourceClassesRule.java:71)
+FAT [20100511-22:38:33.599] container:     at com.sun.jersey.server.impl.application.WebApplicationImpl._handleRequest(WebApplicationImpl.java:990)
+FAT [20100511-22:38:33.599] container:     at com.sun.jersey.server.impl.application.WebApplicationImpl.handleRequest(WebApplicationImpl.java:941)
+FAT [20100511-22:38:33.599] container:     at com.sun.jersey.server.impl.application.WebApplicationImpl.handleRequest(WebApplicationImpl.java:932)
+FAT [20100511-22:38:33.599] container:     at com.sun.jersey.spi.container.servlet.WebComponent.service(WebComponent.java:384)
+FAT [20100511-22:38:33.599] container:     at com.sun.jersey.spi.container.servlet.ServletContainer.service(ServletContainer.java:451)
+FAT [20100511-22:38:33.599] container:     at com.sun.jersey.spi.container.servlet.ServletContainer.service(ServletContainer.java:632)
+FAT [20100511-22:38:33.599] container:     at se.scalablesolutions.akka.comet.AkkaServlet$$anon$1$$anon$2.onRequest(AkkaServlet.scala:33)
+FAT [20100511-22:38:33.599] container:     at se.scalablesolutions.akka.comet.AkkaServlet$$anon$1.onRequest(AkkaServlet.scala:43)
+FAT [20100511-22:38:33.599] container:     at org.atmosphere.cpr.AsynchronousProcessor.action(AsynchronousProcessor.java:145)
+FAT [20100511-22:38:33.599] container:     at org.atmosphere.cpr.AsynchronousProcessor.suspended(AsynchronousProcessor.java:119)
+FAT [20100511-22:38:33.599] container:     at org.atmosphere.container.GrizzlyCometSupport.service(GrizzlyCometSupport.java:99)
+FAT [20100511-22:38:33.599] container:     at org.atmosphere.cpr.AtmosphereServlet.doCometSupport(AtmosphereServlet.java:803)
+FAT [20100511-22:38:33.599] container:     at org.atmosphere.cpr.AtmosphereServlet.doPost(AtmosphereServlet.java:786)
+FAT [20100511-22:38:33.599] container:     at org.atmosphere.cpr.AtmosphereServlet.doGet(AtmosphereServlet.java:773)
+FAT [20100511-22:38:33.599] container:     at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+FAT [20100511-22:38:33.599] container:     at javax.servlet.http.HttpServlet.service(HttpServlet.java:820)
+FAT [20100511-22:38:33.599] container:     at com.sun.grizzly.http.servlet.FilterChainImpl.doFilter(FilterChainImpl.java:195)
+FAT [20100511-22:38:33.599] container:     at com.sun.grizzly.http.servlet.FilterChainImpl.invokeFilterChain(FilterChainImpl.java:139)
+FAT [20100511-22:38:33.599] container:     (...more...)
+FAT [20100511-22:38:33.608] grizzly: service exception:
+FAT [20100511-22:38:33.608] grizzly: java.lang.ClassCastException: java.lang.String cannot be cast to javax.ws.rs.core.Response
+FAT [20100511-22:38:33.608] grizzly:     at example.akka.mongo.bookmarks.rest.UsersRest.show(UserService.scala:51)
+FAT [20100511-22:38:33.608] grizzly:     at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+FAT [20100511-22:38:33.608] grizzly:     at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+FAT [20100511-22:38:33.608] grizzly:     at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+FAT [20100511-22:38:33.608] grizzly:     at java.lang.reflect.Method.invoke(Method.java:597)
+FAT [20100511-22:38:33.608] grizzly:     at com.sun.jersey.server.impl.model.method.dispatch.AbstractResourceMethodDispatchProvider$ResponseOutInvoker._dispatch(AbstractResourceMethodDispatchProvider.java:168)
+FAT [20100511-22:38:33.608] grizzly:     at com.sun.jersey.server.impl.model.method.dispatch.ResourceJavaMethodDispatcher.dispatch(ResourceJavaMethodDispatcher.java:67)
+FAT [20100511-22:38:33.608] grizzly:     at com.sun.jersey.server.impl.uri.rules.HttpMethodRule.accept(HttpMethodRule.java:259)
+FAT [20100511-22:38:33.608] grizzly:     at com.sun.jersey.server.impl.uri.rules.RightHandPathRule.accept(RightHandPathRule.java:133)
+FAT [20100511-22:38:33.608] grizzly:     at com.sun.jersey.server.impl.uri.rules.ResourceClassRule.accept(ResourceClassRule.java:83)
+FAT [20100511-22:38:33.608] grizzly:     at com.sun.jersey.server.impl.uri.rules.RightHandPathRule.accept(RightHandPathRule.java:133)
+FAT [20100511-22:38:33.608] grizzly:     at com.sun.jersey.server.impl.uri.rules.RootResourceClassesRule.accept(RootResourceClassesRule.java:71)
+FAT [20100511-22:38:33.608] grizzly:     at com.sun.jersey.server.impl.application.WebApplicationImpl._handleRequest(WebApplicationImpl.java:990)
+FAT [20100511-22:38:33.608] grizzly:     at com.sun.jersey.server.impl.application.WebApplicationImpl.handleRequest(WebApplicationImpl.java:941)
+FAT [20100511-22:38:33.608] grizzly:     at com.sun.jersey.server.impl.application.WebApplicationImpl.handleRequest(WebApplicationImpl.java:932)
+FAT [20100511-22:38:33.608] grizzly:     at com.sun.jersey.spi.container.servlet.WebComponent.service(WebComponent.java:384)
+FAT [20100511-22:38:33.608] grizzly:     at com.sun.jersey.spi.container.servlet.ServletContainer.service(ServletContainer.java:451)
+FAT [20100511-22:38:33.608] grizzly:     at com.sun.jersey.spi.container.servlet.ServletContainer.service(ServletContainer.java:632)
+FAT [20100511-22:38:33.608] grizzly:     at se.scalablesolutions.akka.comet.AkkaServlet$$anon$1$$anon$2.onRequest(AkkaServlet.scala:33)
+FAT [20100511-22:38:33.608] grizzly:     at se.scalablesolutions.akka.comet.AkkaServlet$$anon$1.onRequest(AkkaServlet.scala:43)
+FAT [20100511-22:38:33.608] grizzly:     at org.atmosphere.cpr.AsynchronousProcessor.action(AsynchronousProcessor.java:145)
+FAT [20100511-22:38:33.608] grizzly:     at org.atmosphere.cpr.AsynchronousProcessor.suspended(AsynchronousProcessor.java:119)
+FAT [20100511-22:38:33.608] grizzly:     at org.atmosphere.container.GrizzlyCometSupport.service(GrizzlyCometSupport.java:99)
+FAT [20100511-22:38:33.608] grizzly:     at org.atmosphere.cpr.AtmosphereServlet.doCometSupport(AtmosphereServlet.java:803)
+FAT [20100511-22:38:33.608] grizzly:     at org.atmosphere.cpr.AtmosphereServlet.doPost(AtmosphereServlet.java:786)
+FAT [20100511-22:38:33.608] grizzly:     at org.atmosphere.cpr.AtmosphereServlet.doGet(AtmosphereServlet.java:773)
+FAT [20100511-22:38:33.608] grizzly:     at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+FAT [20100511-22:38:33.608] grizzly:     at javax.servlet.http.HttpServlet.service(HttpServlet.java:820)
+FAT [20100511-22:38:33.608] grizzly:     at com.sun.grizzly.http.servlet.FilterChainImpl.doFilter(FilterChainImpl.java:195)
+FAT [20100511-22:38:33.608] grizzly:     at com.sun.grizzly.http.servlet.FilterChainImpl.invokeFilterChain(FilterChainImpl.java:139)
+FAT [20100511-22:38:33.608] grizzly:     (...more...)
+INF [20100511-22:45:48.075] config: Config loaded from the application classpath.
+INF [20100511-22:45:48.162] kernel: 
+INF [20100511-22:45:48.162] kernel: ==============================
+INF [20100511-22:45:48.162] kernel:           __    __
+INF [20100511-22:45:48.162] kernel:  _____  |  | _|  | _______
+INF [20100511-22:45:48.162] kernel:  \__  \ |  |/ /  |/ /\__  \
+INF [20100511-22:45:48.162] kernel:   / __ \|    <|    <  / __ \_
+INF [20100511-22:45:48.162] kernel:  (____  /__|_ \__|_ \(____  /
+INF [20100511-22:45:48.162] kernel:       \/     \/    \/     \/
+INF [20100511-22:45:48.162] kernel:  Running version 0.8.1
+INF [20100511-22:45:48.163] kernel: ==============================
+INF [20100511-22:45:48.163] kernel: Starting Akka...
+INF [20100511-22:45:48.165] kernel: Loading boot class [example.akka.mongo.bookmarks.app.Boot]
+INF [20100511-22:45:48.206] remote: Starting up Cluster Service...
+INF [20100511-22:45:50.902] kernel: Initializing Remote Actors Service...
+INF [20100511-22:45:50.918] kernel: Remote Actors Service initialized!
+INF [20100511-22:45:51.017] kernel: Attempting to start REST service on uri [http://localhost:9998]
+INF [20100511-22:45:51.056] remote: Starting remote server at [localhost:9999]
+INF [20100511-22:45:51.190] kernel: REST service root path [[.]] and context path []
+INF [20100511-22:45:51.384] grizzly: Starting Grizzly Framework 1.9.18-i - Tue May 11 22:45:51 EDT 2010
+INF [20100511-22:45:51.402] kernel: REST service started successfully. Listening to port [9998]
+INF [20100511-22:45:51.467] camel: Camel context initialized
+INF [20100511-22:45:52.756] camel: Camel context started
+INF [20100511-22:45:52.765] kernel: Akka started successfully
+INF [20100511-22:48:12.378] config: Config loaded from the application classpath.
+INF [20100511-22:48:12.483] kernel: 
+INF [20100511-22:48:12.483] kernel: ==============================
+INF [20100511-22:48:12.483] kernel:           __    __
+INF [20100511-22:48:12.483] kernel:  _____  |  | _|  | _______
+INF [20100511-22:48:12.483] kernel:  \__  \ |  |/ /  |/ /\__  \
+INF [20100511-22:48:12.483] kernel:   / __ \|    <|    <  / __ \_
+INF [20100511-22:48:12.483] kernel:  (____  /__|_ \__|_ \(____  /
+INF [20100511-22:48:12.483] kernel:       \/     \/    \/     \/
+INF [20100511-22:48:12.484] kernel:  Running version 0.8.1
+INF [20100511-22:48:12.484] kernel: ==============================
+INF [20100511-22:48:12.484] kernel: Starting Akka...
+INF [20100511-22:48:12.486] kernel: Loading boot class [example.akka.mongo.bookmarks.app.Boot]
+INF [20100511-22:48:12.526] remote: Starting up Cluster Service...
+INF [20100511-22:48:15.199] kernel: Initializing Remote Actors Service...
+INF [20100511-22:48:15.215] kernel: Remote Actors Service initialized!
+INF [20100511-22:48:15.322] kernel: Attempting to start REST service on uri [http://localhost:9998]
+INF [20100511-22:48:15.335] remote: Starting remote server at [localhost:9999]
+INF [20100511-22:48:15.508] kernel: REST service root path [[.]] and context path []
+INF [20100511-22:48:15.671] grizzly: Starting Grizzly Framework 1.9.18-i - Tue May 11 22:48:15 EDT 2010
+INF [20100511-22:48:15.688] kernel: REST service started successfully. Listening to port [9998]
+INF [20100511-22:48:15.748] camel: Camel context initialized
+INF [20100511-22:48:17.018] camel: Camel context started
+INF [20100511-22:48:17.038] kernel: Akka started successfully
+INF [20100511-22:48:21.350] Atmosphere: Atmosphere is using for CometSupport: org.atmosphere.container.GrizzlyCometSupport running under container Grizzly/1.9.18-i
+INF [20100511-22:48:21.371] core: Scanning for root resource and provider classes in the Web app resource paths:
+INF [20100511-22:48:21.371] core:   /WEB-INF/lib
+INF [20100511-22:48:21.371] core:   /WEB-INF/classes
+INF [20100511-22:48:21.546] application: Initiating Jersey application, version 'Jersey: 1.1.5 01/20/2010 03:55 PM'
+INF [20100511-22:48:21.556] application: Adding the following classes declared in META-INF/services/jersey-server-components to the resource configuration:
+INF [20100511-22:48:21.556] application:   class org.atmosphere.jersey.BroadcasterInjector
+INF [20100511-22:48:21.556] application:   class org.atmosphere.jersey.AtmosphereProviders$BroadcasterProvider
+INF [20100511-22:48:21.556] application:   class org.atmosphere.jersey.BroadcasterLookupInjector
+INF [20100511-22:48:21.556] application:   class org.atmosphere.jersey.AtmosphereResourceInjector
+INF [20100511-22:48:21.556] application:   class org.atmosphere.jersey.AtmosphereResourceConfigurator
+INF [20100511-22:48:22.693] Atmosphere: Atmosphere Framework 0.5.4 started.
+INF [20100511-22:48:22.734] api: Initializing GlobalStmInstance using factoryMethod 'org.multiverse.stms.alpha.AlphaStm.createFast'.
+INF [20100511-22:48:22.747] alpha: Created a new AlphaStm instance
+INF [20100511-22:48:22.748] api: Successfully initialized GlobalStmInstance using factoryMethod 'org.multiverse.stms.alpha.AlphaStm.createFast'.
+INF [20100511-22:54:17.068] config: Config loaded from the application classpath.
+INF [20100511-22:54:17.118] kernel: 
+INF [20100511-22:54:17.118] kernel: ==============================
+INF [20100511-22:54:17.118] kernel:           __    __
+INF [20100511-22:54:17.118] kernel:  _____  |  | _|  | _______
+INF [20100511-22:54:17.118] kernel:  \__  \ |  |/ /  |/ /\__  \
+INF [20100511-22:54:17.118] kernel:   / __ \|    <|    <  / __ \_
+INF [20100511-22:54:17.118] kernel:  (____  /__|_ \__|_ \(____  /
+INF [20100511-22:54:17.118] kernel:       \/     \/    \/     \/
+INF [20100511-22:54:17.119] kernel:  Running version 0.8.1
+INF [20100511-22:54:17.119] kernel: ==============================
+INF [20100511-22:54:17.120] kernel: Starting Akka...
+INF [20100511-22:54:17.121] kernel: Loading boot class [example.akka.mongo.bookmarks.app.Boot]
+INF [20100511-22:54:17.187] remote: Starting up Cluster Service...
+INF [20100511-22:54:19.847] kernel: Initializing Remote Actors Service...
+INF [20100511-22:54:19.864] kernel: Remote Actors Service initialized!
+INF [20100511-22:54:19.958] kernel: Attempting to start REST service on uri [http://localhost:9998]
+INF [20100511-22:54:19.992] remote: Starting remote server at [localhost:9999]
+INF [20100511-22:54:20.132] kernel: REST service root path [[.]] and context path []
+INF [20100511-22:54:20.353] grizzly: Starting Grizzly Framework 1.9.18-i - Tue May 11 22:54:20 EDT 2010
+INF [20100511-22:54:20.370] kernel: REST service started successfully. Listening to port [9998]
+INF [20100511-22:54:20.443] camel: Camel context initialized
+INF [20100511-22:54:21.634] camel: Camel context started
+INF [20100511-22:54:21.651] kernel: Akka started successfully
+INF [20100511-22:57:31.317] Atmosphere: Atmosphere is using for CometSupport: org.atmosphere.container.GrizzlyCometSupport running under container Grizzly/1.9.18-i
+INF [20100511-22:57:31.354] core: Scanning for root resource and provider classes in the Web app resource paths:
+INF [20100511-22:57:31.354] core:   /WEB-INF/lib
+INF [20100511-22:57:31.354] core:   /WEB-INF/classes
+INF [20100511-22:57:31.486] application: Initiating Jersey application, version 'Jersey: 1.1.5 01/20/2010 03:55 PM'
+INF [20100511-22:57:31.494] application: Adding the following classes declared in META-INF/services/jersey-server-components to the resource configuration:
+INF [20100511-22:57:31.494] application:   class org.atmosphere.jersey.BroadcasterInjector
+INF [20100511-22:57:31.494] application:   class org.atmosphere.jersey.AtmosphereProviders$BroadcasterProvider
+INF [20100511-22:57:31.494] application:   class org.atmosphere.jersey.BroadcasterLookupInjector
+INF [20100511-22:57:31.494] application:   class org.atmosphere.jersey.AtmosphereResourceInjector
+INF [20100511-22:57:31.494] application:   class org.atmosphere.jersey.AtmosphereResourceConfigurator
+INF [20100511-22:57:32.672] Atmosphere: Atmosphere Framework 0.5.4 started.
+INF [20100511-22:57:32.718] api: Initializing GlobalStmInstance using factoryMethod 'org.multiverse.stms.alpha.AlphaStm.createFast'.
+INF [20100511-22:57:32.734] alpha: Created a new AlphaStm instance
+INF [20100511-22:57:32.734] api: Successfully initialized GlobalStmInstance using factoryMethod 'org.multiverse.stms.alpha.AlphaStm.createFast'.
+INF [20100511-23:10:12.925] config: Config loaded from the application classpath.
+INF [20100511-23:10:12.975] kernel: 
+INF [20100511-23:10:12.975] kernel: ==============================
+INF [20100511-23:10:12.975] kernel:           __    __
+INF [20100511-23:10:12.975] kernel:  _____  |  | _|  | _______
+INF [20100511-23:10:12.975] kernel:  \__  \ |  |/ /  |/ /\__  \
+INF [20100511-23:10:12.975] kernel:   / __ \|    <|    <  / __ \_
+INF [20100511-23:10:12.975] kernel:  (____  /__|_ \__|_ \(____  /
+INF [20100511-23:10:12.975] kernel:       \/     \/    \/     \/
+INF [20100511-23:10:12.976] kernel:  Running version 0.8.1
+INF [20100511-23:10:12.976] kernel: ==============================
+INF [20100511-23:10:12.976] kernel: Starting Akka...
+INF [20100511-23:10:12.978] kernel: Loading boot class [example.akka.mongo.bookmarks.app.Boot]
+INF [20100511-23:10:13.017] remote: Starting up Cluster Service...
+INF [20100511-23:10:15.705] kernel: Initializing Remote Actors Service...
+INF [20100511-23:10:15.713] kernel: Remote Actors Service initialized!
+INF [20100511-23:10:15.863] kernel: Attempting to start REST service on uri [http://localhost:9998]
+INF [20100511-23:10:15.876] remote: Starting remote server at [localhost:9999]
+INF [20100511-23:10:16.005] kernel: REST service root path [[.]] and context path []
+INF [20100511-23:10:16.192] grizzly: Starting Grizzly Framework 1.9.18-i - Tue May 11 23:10:16 EDT 2010
+INF [20100511-23:10:16.220] kernel: REST service started successfully. Listening to port [9998]
+INF [20100511-23:10:16.301] camel: Camel context initialized
+INF [20100511-23:10:17.707] camel: Camel context started
+INF [20100511-23:10:17.721] kernel: Akka started successfully
+INF [20100511-23:10:24.074] Atmosphere: Atmosphere is using for CometSupport: org.atmosphere.container.GrizzlyCometSupport running under container Grizzly/1.9.18-i
+INF [20100511-23:10:24.103] core: Scanning for root resource and provider classes in the Web app resource paths:
+INF [20100511-23:10:24.103] core:   /WEB-INF/lib
+INF [20100511-23:10:24.103] core:   /WEB-INF/classes
+INF [20100511-23:10:24.215] application: Initiating Jersey application, version 'Jersey: 1.1.5 01/20/2010 03:55 PM'
+INF [20100511-23:10:24.223] application: Adding the following classes declared in META-INF/services/jersey-server-components to the resource configuration:
+INF [20100511-23:10:24.223] application:   class org.atmosphere.jersey.BroadcasterInjector
+INF [20100511-23:10:24.223] application:   class org.atmosphere.jersey.AtmosphereProviders$BroadcasterProvider
+INF [20100511-23:10:24.223] application:   class org.atmosphere.jersey.BroadcasterLookupInjector
+INF [20100511-23:10:24.223] application:   class org.atmosphere.jersey.AtmosphereResourceInjector
+INF [20100511-23:10:24.223] application:   class org.atmosphere.jersey.AtmosphereResourceConfigurator
+INF [20100511-23:10:25.366] Atmosphere: Atmosphere Framework 0.5.4 started.
+INF [20100511-23:10:25.498] api: Initializing GlobalStmInstance using factoryMethod 'org.multiverse.stms.alpha.AlphaStm.createFast'.
+INF [20100511-23:10:25.511] alpha: Created a new AlphaStm instance
+INF [20100511-23:10:25.512] api: Successfully initialized GlobalStmInstance using factoryMethod 'org.multiverse.stms.alpha.AlphaStm.createFast'.
+INF [20100511-23:57:59.400] config: Config loaded from the application classpath.
+INF [20100511-23:57:59.464] kernel: 
+INF [20100511-23:57:59.464] kernel: ==============================
+INF [20100511-23:57:59.464] kernel:           __    __
+INF [20100511-23:57:59.464] kernel:  _____  |  | _|  | _______
+INF [20100511-23:57:59.464] kernel:  \__  \ |  |/ /  |/ /\__  \
+INF [20100511-23:57:59.464] kernel:   / __ \|    <|    <  / __ \_
+INF [20100511-23:57:59.464] kernel:  (____  /__|_ \__|_ \(____  /
+INF [20100511-23:57:59.464] kernel:       \/     \/    \/     \/
+INF [20100511-23:57:59.465] kernel:  Running version 0.8.1
+INF [20100511-23:57:59.466] kernel: ==============================
+INF [20100511-23:57:59.466] kernel: Starting Akka...
+INF [20100511-23:57:59.478] kernel: Loading boot class [example.akka.mongo.bookmarks.app.Boot]
+INF [20100511-23:57:59.528] remote: Starting up Cluster Service...
+INF [20100511-23:58:02.583] kernel: Initializing Remote Actors Service...
+INF [20100511-23:58:02.620] kernel: Remote Actors Service initialized!
+INF [20100511-23:58:02.742] kernel: Attempting to start REST service on uri [http://localhost:9998]
+INF [20100511-23:58:02.757] remote: Starting remote server at [localhost:9999]
+INF [20100511-23:58:02.920] kernel: REST service root path [[.]] and context path []
+INF [20100511-23:58:03.226] grizzly: Starting Grizzly Framework 1.9.18-i - Tue May 11 23:58:03 EDT 2010
+INF [20100511-23:58:03.243] kernel: REST service started successfully. Listening to port [9998]
+INF [20100511-23:58:03.304] camel: Camel context initialized
+INF [20100511-23:58:04.580] camel: Camel context started
+INF [20100511-23:58:04.589] kernel: Akka started successfully
